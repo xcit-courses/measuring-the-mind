@@ -1,0 +1,17 @@
+---
+title: "Chapter 1: Introduction"
+---
+
+
+
+Measurement is a fundamental building block of science: without measurement we can't build, refine or disprove theories, without theories we would not know what to measure. Across the history of science theory and measurements co-evolve, each benefitting the other. 
+
+
+As scientists, but more generally, as a citizen aiming to understand the world around us, it is important to reflect on what it means to measure something and how to do so. This course will cover measurement from a diversity of perspectives. The goal is not to "sell" a specific theory of measurement in psychology but instead to raise awareness about the importance of measurement theory in psychology and to develop your critical thinking in this domain. At the end of the course you may not have more answeres, but you certainly will have more questions.
+
+
+
+## Lecture Slides
+
+- [Introduction](slides/mm_intro.qmd)
+

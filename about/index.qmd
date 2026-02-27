@@ -1,0 +1,31 @@
+---
+title: "Measuring the Mind"
+subtitle: "Advanced Psychological Measurement Theory"
+---
+
+
+# Welcome
+
+This is the (work in progress) course website for "Measuring the Mind: Advanced Psychological Measurement Theory".
+
+In this course we will cover the following content:
+
+- [Chapter 1: Introduction](../chapters/chapter1/chapter1.qmd)
+
+Each chapter may contain links to slides and possibly other resources.
+
+
+## Course Overview
+
+This course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).
+
+
+
+## Getting Started
+
+Navigate through the course materials using the sidebar on the left. Each chapter includes:
+
+- Lecture notes
+- Slides
+- Practical exercises in R
+- Additional resources

@@ -1,0 +1,24 @@
+---
+title: "Syllabus"
+---
+
+
+**Course Title:** Measuring the Mind: Advanced Psychological Measurement Theory  
+**Instructor:** Prof. Pedro Cardoso-Leite  
+
+## Course Schedule
+
+coming soon
+
+## Grading
+
+- Class Participation, Exercises: 25%
+- Final Exam: 75%
+
+## Required Materials
+
+- R (latest version)
+- RStudio (latest version)
+- R packages: tidyverse, lavaan, psych
+
+

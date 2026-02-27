@@ -1,0 +1,12 @@
+---
+title: "Course Overview"
+---
+
+
+## Description
+
+Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.
+
+## When and Where
+
+{{< include schedule_table.md >}}
