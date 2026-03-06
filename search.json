@@ -244,7 +244,7 @@
     "href": "about/index.html",
     "title": "Measuring the Mind",
     "section": "",
-    "text": "This is the (work in progress) course website for “Measuring the Mind: Advanced Psychological Measurement Theory”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction\n\nEach chapter may contain links to slides and possibly other resources.\n\n\nThis course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).\n\n\n\nNavigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
+    "text": "This is the (work in progress) course website for “Measuring the Mind: Advanced Psychological Measurement Theory”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction\nChapter 2: History of measurements\n\nEach chapter may contain links to slides and possibly other resources.\n\n\nThis course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).\n\n\n\nNavigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
     "crumbs": [
       "Home"
     ]
@@ -318,14 +318,22 @@
     "href": "chapters/chapter2/chapter2.html",
     "title": "Chapter 2: Some history of measurements",
     "section": "",
-    "text": "In this chapter we will discuss the evolution of measurements, focusing in particular on the example of length."
+    "text": "In this chapter we will discuss the evolution of measurements, focusing in particular on the example of length.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2 - History"
+    ]
   },
   {
     "objectID": "chapters/chapter2/chapter2.html#lecture-slides",
     "href": "chapters/chapter2/chapter2.html#lecture-slides",
     "title": "Chapter 2: Some history of measurements",
     "section": "Lecture Slides",
-    "text": "Lecture Slides\n\nIntroduction"
+    "text": "Lecture Slides\n\nIntroduction",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2 - History"
+    ]
   },
   {
     "objectID": "chapters/chapter2/slides/history.html#section",
