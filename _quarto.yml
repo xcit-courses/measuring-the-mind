@@ -40,6 +40,9 @@ website:
         contents:
           - text: Chapter 1 - Introduction
             href: chapters/chapter1/chapter1.qmd
+          - text: Chapter 2 - History
+            href: chapters/chapter2/chapter2.qmd
+
       - text: Resources
         href: resources/resources.md
 
@@ -58,6 +61,7 @@ book:
     - part: "Chapters"
       chapters:
         - chapters/chapter1/chapter1.qmd                                      
+        - chapters/chapter2/chapter2.qmd
     - resources/resources.md
 
 format:
