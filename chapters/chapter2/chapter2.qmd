@@ -1,0 +1,13 @@
+---
+title: "Chapter 2: Some history of measurements"
+---
+
+
+In this chapter we will discuss the evolution of measurements, focusing in particular on the example of length.
+
+
+
+## Lecture Slides
+
+- [Introduction](slides/history.qmd)
+
