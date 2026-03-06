@@ -20,146 +20,6 @@
     ]
   },
   {
-    "objectID": "chapters/chapter1/chapter1.html",
-    "href": "chapters/chapter1/chapter1.html",
-    "title": "Chapter 1: Introduction",
-    "section": "",
-    "text": "Measurement is a fundamental building block of science: without measurement we can’t build, refine or disprove theories, without theories we would not know what to measure. Across the history of science theory and measurements co-evolve, each benefitting the other.\nAs scientists, but more generally, as a citizen aiming to understand the world around us, it is important to reflect on what it means to measure something and how to do so. This course will cover measurement from a diversity of perspectives. The goal is not to “sell” a specific theory of measurement in psychology but instead to raise awareness about the importance of measurement theory in psychology and to develop your critical thinking in this domain. At the end of the course you may not have more answeres, but you certainly will have more questions.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 1 - Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter1/chapter1.html#lecture-slides",
-    "href": "chapters/chapter1/chapter1.html#lecture-slides",
-    "title": "Chapter 1: Introduction",
-    "section": "Lecture Slides",
-    "text": "Lecture Slides\n\nIntroduction",
-    "crumbs": [
-      "Chapters",
-      "Chapter 1 - Introduction"
-    ]
-  },
-  {
-    "objectID": "about/overview.html",
-    "href": "about/overview.html",
-    "title": "Course Overview",
-    "section": "",
-    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#description",
-    "href": "about/overview.html#description",
-    "title": "Course Overview",
-    "section": "",
-    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#when-and-where",
-    "href": "about/overview.html#when-and-where",
-    "title": "Course Overview",
-    "section": "When and Where",
-    "text": "When and Where",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
-    "href": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
-    "title": "Course Overview",
-    "section": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)",
-    "text": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)\nAdvanced psychological measurement theory SM\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nTu 24.02\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nTu 03.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nTu 10.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nTu 17.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nTu 24.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nTu 31.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nTu 21.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n8\nTu 28.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n9\nTu 05.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n10\nTu 12.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "This is the (work in progress) course website for “Measuring the Mind: Advanced Psychological Measurement Theory”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction\n\nEach chapter may contain links to slides and possibly other resources.\n\n\nThis course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).\n\n\n\nNavigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about/index.html#course-overview",
-    "href": "about/index.html#course-overview",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "This course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about/index.html#getting-started",
-    "href": "about/index.html#getting-started",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "Navigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html",
-    "href": "about/syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Course Title: Measuring the Mind: Advanced Psychological Measurement Theory\nInstructor: Prof. Pedro Cardoso-Leite",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#course-schedule",
-    "href": "about/syllabus.html#course-schedule",
-    "title": "Syllabus",
-    "section": "Course Schedule",
-    "text": "Course Schedule\ncoming soon",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#grading",
-    "href": "about/syllabus.html#grading",
-    "title": "Syllabus",
-    "section": "Grading",
-    "text": "Grading\n\nClass Participation, Exercises: 25%\nFinal Exam: 75%",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#required-materials",
-    "href": "about/syllabus.html#required-materials",
-    "title": "Syllabus",
-    "section": "Required Materials",
-    "text": "Required Materials\n\nR (latest version)\nRStudio (latest version)\nR packages: tidyverse, lavaan, psych",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
     "objectID": "chapters/chapter1/slides/mm_intro.html#welcome",
     "href": "chapters/chapter1/slides/mm_intro.html#welcome",
     "title": "Measuring the Mind",
@@ -312,5 +172,348 @@
     "title": "Measuring the Mind",
     "section": "Neurosymptoms.org",
     "text": "Neurosymptoms.org"
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html",
+    "href": "chapters/chapter1/chapter1.html",
+    "title": "Chapter 1: Introduction",
+    "section": "",
+    "text": "Measurement is a fundamental building block of science: without measurement we can’t build, refine or disprove theories, without theories we would not know what to measure. Across the history of science theory and measurements co-evolve, each benefitting the other.\nAs scientists, but more generally, as a citizen aiming to understand the world around us, it is important to reflect on what it means to measure something and how to do so. This course will cover measurement from a diversity of perspectives. The goal is not to “sell” a specific theory of measurement in psychology but instead to raise awareness about the importance of measurement theory in psychology and to develop your critical thinking in this domain. At the end of the course you may not have more answeres, but you certainly will have more questions.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html#lecture-slides",
+    "href": "chapters/chapter1/chapter1.html#lecture-slides",
+    "title": "Chapter 1: Introduction",
+    "section": "Lecture Slides",
+    "text": "Lecture Slides\n\nIntroduction",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Introduction"
+    ]
+  },
+  {
+    "objectID": "about/overview.html",
+    "href": "about/overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#description",
+    "href": "about/overview.html#description",
+    "title": "Course Overview",
+    "section": "",
+    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#when-and-where",
+    "href": "about/overview.html#when-and-where",
+    "title": "Course Overview",
+    "section": "When and Where",
+    "text": "When and Where",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
+    "href": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
+    "title": "Course Overview",
+    "section": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)",
+    "text": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)\nAdvanced psychological measurement theory SM\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nTu 24.02\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nTu 03.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nTu 10.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nTu 17.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nTu 24.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nTu 31.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nTu 21.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n8\nTu 28.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n9\nTu 05.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n10\nTu 12.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "This is the (work in progress) course website for “Measuring the Mind: Advanced Psychological Measurement Theory”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction\n\nEach chapter may contain links to slides and possibly other resources.\n\n\nThis course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).\n\n\n\nNavigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/index.html#course-overview",
+    "href": "about/index.html#course-overview",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "This course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/index.html#getting-started",
+    "href": "about/index.html#getting-started",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "Navigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html",
+    "href": "about/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course Title: Measuring the Mind: Advanced Psychological Measurement Theory\nInstructor: Prof. Pedro Cardoso-Leite",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#course-schedule",
+    "href": "about/syllabus.html#course-schedule",
+    "title": "Syllabus",
+    "section": "Course Schedule",
+    "text": "Course Schedule\ncoming soon",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#grading",
+    "href": "about/syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\n\nClass Participation, Exercises: 25%\nFinal Exam: 75%",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#required-materials",
+    "href": "about/syllabus.html#required-materials",
+    "title": "Syllabus",
+    "section": "Required Materials",
+    "text": "Required Materials\n\nR (latest version)\nRStudio (latest version)\nR packages: tidyverse, lavaan, psych",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html",
+    "href": "chapters/chapter2/chapter2.html",
+    "title": "Chapter 2: Some history of measurements",
+    "section": "",
+    "text": "In this chapter we will discuss the evolution of measurements, focusing in particular on the example of length."
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html#lecture-slides",
+    "href": "chapters/chapter2/chapter2.html#lecture-slides",
+    "title": "Chapter 2: Some history of measurements",
+    "section": "Lecture Slides",
+    "text": "Lecture Slides\n\nIntroduction"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#section",
+    "href": "chapters/chapter2/slides/history.html#section",
+    "title": "“History” of Measurement",
+    "section": "",
+    "text": "Hand, David J.,\nMeasurement: A Very Short Introduction, Very Short Introductions (Oxford, 2016; online edn, Oxford Academic, 27 Oct. 2016), https://doi.org/10.1093/actrade/9780198779568.001.0001."
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#section-1",
+    "href": "chapters/chapter2/slides/history.html#section-1",
+    "title": "“History” of Measurement",
+    "section": "",
+    "text": "Measurement is as old as civilization:\n\nagriculture\ntrade / accounting\nconstruction\nnavigation\n\nCan you find examples of measurements that are used in each case?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#exercise",
+    "href": "chapters/chapter2/slides/history.html#exercise",
+    "title": "“History” of Measurement",
+    "section": "Exercise",
+    "text": "Exercise\nWhy do we measure things?\n\ngive examples\norganize examples into categories\n\n\nask why multiple times"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#units-of-measurement",
+    "href": "chapters/chapter2/slides/history.html#units-of-measurement",
+    "title": "“History” of Measurement",
+    "section": "Units of Measurement",
+    "text": "Units of Measurement\nWhat references should we pick?\n(For example for length?)"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#use-of-natural-objects",
+    "href": "chapters/chapter2/slides/history.html#use-of-natural-objects",
+    "title": "“History” of Measurement",
+    "section": "use of natural objects",
+    "text": "use of natural objects\nnatural objects as measurements\n\ndry grains of weat\nfathom: height of a man (~ 182.88 cm)\ncubit: length of forearm from elbow to extended fingers (~ 45.72 cm)\nfoot: length of a man’s foot (~ 30.48 cm)\n…\n\nhuman activity\n\nhow much a miner could dig in 1 day\ndistance a bow could shoot an arrow\n…"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#pros-and-cons",
+    "href": "chapters/chapter2/slides/history.html#pros-and-cons",
+    "title": "“History” of Measurement",
+    "section": "Pros and Cons?",
+    "text": "Pros and Cons?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#problems",
+    "href": "chapters/chapter2/slides/history.html#problems",
+    "title": "“History” of Measurement",
+    "section": "Problems",
+    "text": "Problems\n\nvariability of the references\narbitrariness of choice of reference"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability",
+    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability",
+    "title": "“History” of Measurement",
+    "section": "P1: How to reduce variability?",
+    "text": "P1: How to reduce variability?\n\nSolution 1: statistics: compute averages\n\n\n\n\n\n\n\nJacob Koebel (1570)"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology",
+    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology",
+    "title": "“History” of Measurement",
+    "section": "Do we do this in psychology?",
+    "text": "Do we do this in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-1",
+    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-1",
+    "title": "“History” of Measurement",
+    "section": "P1: How to reduce variability?",
+    "text": "P1: How to reduce variability?\n\nSolution 2: use specific objects as references (more stable), make copies and share them.\n\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Toise"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-1",
+    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-1",
+    "title": "“History” of Measurement",
+    "section": "Do we do this in psychology?",
+    "text": "Do we do this in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-2",
+    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-2",
+    "title": "“History” of Measurement",
+    "section": "P1: How to reduce variability?",
+    "text": "P1: How to reduce variability?\n\nSolution 3: use more fundamental physical objects as references (more stable)\n\n\n\n1791, French Academy of Science:\n\n1 meter = distance of North Pole to equator / 10’000’000\n1 second = 1 / 86’400 of a solar day"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-2",
+    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-2",
+    "title": "“History” of Measurement",
+    "section": "Do we do this in psychology?",
+    "text": "Do we do this in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p2-arbitrary-choices",
+    "href": "chapters/chapter2/slides/history.html#p2-arbitrary-choices",
+    "title": "“History” of Measurement",
+    "section": "P2: Arbitrary choices?",
+    "text": "P2: Arbitrary choices?\n\n\nmany systems exist in parallel\nthe same unit could have different names\nthe same name could have different meanings\n\n\n\nThis causes many challenges:\n\nhard to use & understand\nchallenges for communication & interoperability\nhigher error rates"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#complexity",
+    "href": "chapters/chapter2/slides/history.html#complexity",
+    "title": "“History” of Measurement",
+    "section": "Complexity",
+    "text": "Complexity\nwikipedia: Traditional French units of measurement"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#polysemy-homonymy",
+    "href": "chapters/chapter2/slides/history.html#polysemy-homonymy",
+    "title": "“History” of Measurement",
+    "section": "Polysemy, Homonymy",
+    "text": "Polysemy, Homonymy\nThis is still the case today!\n\n“a pint of beer…”\nUS pint &lt; UK pint\n473 ml &lt; 569 ml"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-have-these-problems-in-psychology",
+    "href": "chapters/chapter2/slides/history.html#do-we-have-these-problems-in-psychology",
+    "title": "“History” of Measurement",
+    "section": "Do we have these problems in psychology?",
+    "text": "Do we have these problems in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p2-arbitrary-choices-1",
+    "href": "chapters/chapter2/slides/history.html#p2-arbitrary-choices-1",
+    "title": "“History” of Measurement",
+    "section": "P2: Arbitrary choices?",
+    "text": "P2: Arbitrary choices?\nHow can we fix this?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p2-how-to-reduce-arbitrariness",
+    "href": "chapters/chapter2/slides/history.html#p2-how-to-reduce-arbitrariness",
+    "title": "“History” of Measurement",
+    "section": "P2: How to reduce arbitrariness?",
+    "text": "P2: How to reduce arbitrariness?\n… or rather complexity\n\nSolution: enforce a single unified system\n\n\n\nbenefits are clear and consensual\nbut hard to change habits and adopt new standards"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#systeme-international-dunités-si-units",
+    "href": "chapters/chapter2/slides/history.html#systeme-international-dunités-si-units",
+    "title": "“History” of Measurement",
+    "section": "Systeme International d’Unités (SI units)",
+    "text": "Systeme International d’Unités (SI units)\n1960: 11th General conference on Weight and Measure\n\n\n\n\n\n\n\n\n\n7 SI base Units\n22 named units\nand more…\n\n\n\nhttps://en.wikipedia.org/wiki/International_System_of_Units"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#exercise-1",
+    "href": "chapters/chapter2/slides/history.html#exercise-1",
+    "title": "“History” of Measurement",
+    "section": "Exercise",
+    "text": "Exercise\n\nHave a look at the units of joule. Does it surprise you?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#what-properties-do-you-want-your-reference-to-have",
+    "href": "chapters/chapter2/slides/history.html#what-properties-do-you-want-your-reference-to-have",
+    "title": "“History” of Measurement",
+    "section": "What properties do you want your reference to have?",
+    "text": "What properties do you want your reference to have?\n(aka what units should you pick?)"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#did-we-really-reduce-arbitrariness",
+    "href": "chapters/chapter2/slides/history.html#did-we-really-reduce-arbitrariness",
+    "title": "“History” of Measurement",
+    "section": "Did we really reduce arbitrariness?",
+    "text": "Did we really reduce arbitrariness?\n\nCan we do it?\nDoes it matter?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#how-could-you-measure-the-size-of-earth",
+    "href": "chapters/chapter2/slides/history.html#how-could-you-measure-the-size-of-earth",
+    "title": "“History” of Measurement",
+    "section": "How could you measure the size of Earth?",
+    "text": "How could you measure the size of Earth?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#section-3",
+    "href": "chapters/chapter2/slides/history.html#section-3",
+    "title": "“History” of Measurement",
+    "section": "",
+    "text": "More detailed explanation:"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#did-eratosthenes-really-measure-the-size-of-earth",
+    "href": "chapters/chapter2/slides/history.html#did-eratosthenes-really-measure-the-size-of-earth",
+    "title": "“History” of Measurement",
+    "section": "Did Eratosthenes really measure the size of Earth?",
+    "text": "Did Eratosthenes really measure the size of Earth?\n\n\nhow can we confirm his estimate is true?\nhe did not measure but infer\nyet the underlying dimension is still “length”"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#co-evolution-of-science-technology-culture-and-measurement-accuracy",
+    "href": "chapters/chapter2/slides/history.html#co-evolution-of-science-technology-culture-and-measurement-accuracy",
+    "title": "“History” of Measurement",
+    "section": "Co-evolution of science, technology, culture and measurement accuracy",
+    "text": "Co-evolution of science, technology, culture and measurement accuracy\n\nrough measures are initially OK;\nbut as science, technology, and culture advances, more accurate measurements become necessary.\n\n\nExamples:\n\nnavigation\nindustrial revolution\ndiscovery of Pluto based on measured perturbations of the orbit of Uranus"
   }
 ]
