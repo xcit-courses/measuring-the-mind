@@ -1,0 +1,14 @@
+---
+title: "Chapter 3: Different types of measurements"
+---
+
+
+
+In this chapter we will review different ways in which measurements have been classified in types and ask the question of how measurements in psychology are similar or different from measurements in physics.
+
+
+
+## Lecture Slides
+
+- [Introduction](slides/types_of_measurment.qmd)
+
