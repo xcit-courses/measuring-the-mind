@@ -579,7 +579,7 @@
     "href": "chapters/chapter3/slides/types_of_measurment.html#section-3",
     "title": "Different types of Measurement",
     "section": "",
-    "text": "Representational measurement\n\nWe assign numbers (using a specific procedure) to different objects, so that the relationships between numbers correspond to the relationship between the objects.\nThey reflect a property of the world, which exists and is defined independently of the specific measurement procedure."
+    "text": "Representational measurement\n\nWe assign numbers (using a specific procedure) to different objects, so that the relationships between numbers correspond to the relationships between the objects.\nThey reflect a property of the world, which exists and is defined independently of the specific measurement procedure."
   },
   {
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#does-this-make-sense",
@@ -593,7 +593,7 @@
     "href": "chapters/chapter3/slides/types_of_measurment.html#section-5",
     "title": "Different types of Measurement",
     "section": "",
-    "text": "Pragmatic measurement\n\nWe design / construct a measure (with desirable properties) for a specific purpose.\nThe pragmatic measurements “simultaneously defines the attribute being measured and specifies how to measure it”."
+    "text": "Pragmatic measurement\n\nWe design / construct a measure (with desirable properties) for a specific purpose.\nPragmatic measurement “simultaneously defines the attribute being measured and specifies how to measure it”."
   },
   {
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#exercise",
@@ -621,7 +621,7 @@
     "href": "chapters/chapter3/slides/types_of_measurment.html#section-7",
     "title": "Different types of Measurement",
     "section": "",
-    "text": "The conceptual question:"
+    "text": "The conceptual question:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlind men and an elphant"
   },
   {
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-8",
@@ -662,8 +662,8 @@
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#stevens-taxonomy-of-measurement-levels",
     "href": "chapters/chapter3/slides/types_of_measurment.html#stevens-taxonomy-of-measurement-levels",
     "title": "Different types of Measurement",
-    "section": "Steven’s taxonomy of measurement levels",
-    "text": "Steven’s taxonomy of measurement levels\nMeasurement levels: (N-O-I-R)\n\nwhat are admissible transformations?\nwhat are equivalent instruments?\nwhat types of data analysis are legit?"
+    "section": "Stevens’ taxonomy of measurement levels",
+    "text": "Stevens’ taxonomy of measurement levels\nMeasurement levels: (N-O-I-R)\n\nwhat are admissible transformations?\nwhat are equivalent instruments?\nwhat types of data analysis are legit?"
   },
   {
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-11",
@@ -680,11 +680,102 @@
     "text": "Permissible transformations & Measurement scales"
   },
   {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#levels-of-measurement",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#levels-of-measurement",
+    "title": "Different types of Measurement",
+    "section": "Levels of Measurement",
+    "text": "Levels of Measurement\nwikipedia definition:\n\n“Level of measurement or scale of measure is a classification that describes the nature of information within the values assigned to variables.”"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#examples",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#examples",
+    "title": "Different types of Measurement",
+    "section": "Examples:",
+    "text": "Examples:\n\nNominal metal becomes red: “it’s hot”: identify a particular state\nOrdinal thermoscope: shows ordered variations\nInterval  thermometer (°C): intervals are meaningful\nRatio thermometer (K): there is an absolute zero"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#key-insights-1",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#key-insights-1",
+    "title": "Different types of Measurement",
+    "section": "Key insights #1",
+    "text": "Key insights #1\nBy throwing away information, I can move down the ladder (and vice versa)"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#key-insights-2",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#key-insights-2",
+    "title": "Different types of Measurement",
+    "section": "Key insights #2",
+    "text": "Key insights #2\nEach measurement level includes a set of arbitrary choices\nRatio has fewer arbitrary choices than Interval."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-12",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-12",
+    "title": "Different types of Measurement",
+    "section": "",
+    "text": "Interval scales (arbitrary zero)\n°Celsius 0 = freezing point of water;\n1 unit = 1/100 of the range between freezing (0°C) and boiling (100°C)\n °Fahrenheit 0 = freezing point of a brine solution (ice + water + salt);\n1 unit = 1/180 of the range between freezing (32°F) and boiling (212°F)\n \nRatio scale (absolute zero)\n°Kelvin 0 = absolute zero (complete absence of thermal energy);\n1 unit = same magnitude as 1°C"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#key-insight-3",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#key-insight-3",
+    "title": "Different types of Measurement",
+    "section": "Key insight #3",
+    "text": "Key insight #3\nThe level of measurement dictates how that data can be analyzed (i.e., valid math operations), and what type of statements can be made based on those measurements."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-13",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-13",
+    "title": "Different types of Measurement",
+    "section": "",
+    "text": "Is 20°C twice as hot as 10°C?"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-14",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-14",
+    "title": "Different types of Measurement",
+    "section": "",
+    "text": "It is obviously true that\n\\[20 = 2 \\times 10\\]\nHowever, for interval-level measurements (assignment of numbers to objects), multiplication is NOT allowed."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-15",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-15",
+    "title": "Different types of Measurement",
+    "section": "",
+    "text": "\\[10°C = 50°F\\]\n\n\n\\[20°C = 68°F \\neq 100°F\\]\n\n\n\ncash recipients in “lower-income countries gained three times more happiness than those in higher-income countries”"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-16",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-16",
+    "title": "Different types of Measurement",
+    "section": "",
+    "text": "Is an IQ of 120 twice an IQ of 60?\nIs a 120cm tall child twice as tall as a 60cm child?\n\n\n“The answer is not included in the numbers”."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#key-insight-4",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#key-insight-4",
+    "title": "Different types of Measurement",
+    "section": "Key insight #4",
+    "text": "Key insight #4\nBecause measurement levels imply some level of arbitrariness (e.g., choice of unit), all else being equal, measures at the same level of measurement are informationally equivalent.\n Example: I can convert °C to °F and vice versa without losing information (the numbers are different, but the information is the same)."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#key-insight-5",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#key-insight-5",
+    "title": "Different types of Measurement",
+    "section": "Key insight #5",
+    "text": "Key insight #5\nThe level of measurement is a property of the measurement, not of the construct:\n\n\nTemperature is theorized as a continuous positive quantity.\n\n\nDepending on the instrument used,\n\nwe will have measures that are of type Nominal, Ordinal, Interval, Ratio\nwe will be allowed to do certain operations, but not others\nwe will be allowed to make certain types of quantitative statements"
+  },
+  {
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#caution",
     "href": "chapters/chapter3/slides/types_of_measurment.html#caution",
     "title": "Different types of Measurement",
     "section": "Caution:",
     "text": "Caution:\nIt’s easy to make the mistake of assigning numeric properties to reality when using numbers to represent measurements!"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#caution-1",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#caution-1",
+    "title": "Different types of Measurement",
+    "section": "Caution:",
+    "text": "Caution:\nThe 4 levels of measurement (N-O-I-R) were proposed by Stanley Smith Stevens in 1946;\nThat’s not the end of the story… see Wikipedia"
   },
   {
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#does-this-actually-matter",
@@ -694,31 +785,24 @@
     "text": "Does this actually matter?"
   },
   {
-    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-12",
-    "href": "chapters/chapter3/slides/types_of_measurment.html#section-12",
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-17",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-17",
     "title": "Different types of Measurement",
     "section": "",
     "text": "A.P. Pedersen, D. Kellen, C. Mayo-Wilson, C.P. Davis-Stober, J.C. Dunn, M.A. Khan, M.B. Stinchcombe, M.L. Kalish, K. Tentori, & J. Haaf, Discourse on measurement, Proc. Natl. Acad. Sci. U.S.A. 122 (5) e2401229121, https://doi.org/10.1073/pnas.2401229121 (2025)."
   },
   {
-    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-13",
-    "href": "chapters/chapter3/slides/types_of_measurment.html#section-13",
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-18",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-18",
     "title": "Different types of Measurement",
     "section": "",
     "text": "exposure to “lead is responsible for the loss of 824,097,690 IQ points as of 2015” (1),\ncash recipients in “lower-income countries gained three times more happiness than those in higher-income countries” (2),\nhumans choose “numerical answers in a systematic way as though they sense within themselves–and can communicate–a reliable numerical scale for their feelings” (3).\n\n\n\nM. J. McFarland, M. E. Hauer, A. Reuben, Half of us population exposed to adverse lead levels in early childhood. Proc. Natl. Acad. Sci. U.S.A. 119, e2118631119 (2022).\nR. J. Dwyer, E. W. Dunn, Wealth redistribution promotes happiness. Proc. Natl. Acad. Sci. U.S.A. 119, e2211123119 (2022).\nC. Kaiser, A. J. Oswald, The scientific value of numerical measures of human feelings. Proc. Natl. Acad. Sci. U.S.A. 119, e2210412119 (2022)."
   },
   {
-    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-14",
-    "href": "chapters/chapter3/slides/types_of_measurment.html#section-14",
+    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-19",
+    "href": "chapters/chapter3/slides/types_of_measurment.html#section-19",
     "title": "Different types of Measurement",
     "section": "",
-    "text": "Read: \nBringmann, L. F., & Eronen, M. I. (2016). Heating up the measurement debate: What psychologists can learn from the history of physics. Theory & Psychology, 26(1), 27-43.\n Answer: - What are the 3 main points made by Bringmann & Eronen (2016)? - List and briefly explain the three points. - Do you agree with them?"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/types_of_measurment.html#section-15",
-    "href": "chapters/chapter3/slides/types_of_measurment.html#section-15",
-    "title": "Different types of Measurement",
-    "section": "",
-    "text": "Some key ideas:\n\ndevelopment of tools without theory\ntheory development despite bad measures\ntriangulation of methods\n“miraculous” correct predictions"
+    "text": "Read: \nBringmann, L. F., & Eronen, M. I. (2016). Heating up the measurement debate: What psychologists can learn from the history of physics. Theory & Psychology, 26(1), 27-43.\n Answer:\n\nWhat are the 3 main points made by Bringmann & Eronen (2016)?\nList and briefly explain the three points.\nDo you agree with them?"
   }
 ]
