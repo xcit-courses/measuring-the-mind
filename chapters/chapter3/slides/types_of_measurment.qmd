@@ -108,7 +108,7 @@ the two extremes of a continuum
 
 **Representational measurement**
 
-- We assign numbers (using a specific procedure) to different objects, *so that* the relationships between numbers correspond to the relationship between the objects.
+- We assign numbers (using a specific procedure) to different objects, *so that* the relationships between numbers correspond to the relationships between the objects.
 
 - They reflect a property of the world, which exists and is defined independently of the specific measurement procedure. 
 
@@ -129,7 +129,7 @@ the two extremes of a continuum
 
 - We design / construct a measure (with desirable properties) for a specific purpose.
 
-- The pragmatic measurements "simultaneously defines the attribute being measured and specifies how to measure it". 
+- Pragmatic measurement "simultaneously defines the attribute being measured and specifies how to measure it".
 
 
 ## Exercise: {.center}
@@ -167,16 +167,16 @@ the two extremes of a continuum
 
 ::: {.column .fragment}
 
-![](images/The-blind-men-and-the-elephant-in-Morris-and-Martens-2009-p-277-A-metaphor-pointing_W640.jpg){fig-align="center" height=400}
-
+![](images/Blind_men_and_elephant.jpg){fig-align="center" height=400}
 
 :::
 
 
 ::::
 
-
-
+::: {.footer}
+[Blind men and an elphant](https://en.wikipedia.org/wiki/Blind_men_and_an_elephant)
+:::
 
 ## 
 
@@ -259,7 +259,7 @@ How do they aggregate numbers into scores?
 
 
 
-## Steven's taxonomy of measurement levels
+## Stevens' taxonomy of measurement levels
 
 [Measurement levels](https://en.wikipedia.org/wiki/Level_of_measurement): (N-O-I-R)
 
@@ -304,9 +304,165 @@ Permissible transformations & measurement levels:
 ![](images/measurement_equivalence.png){fig-align="center" height=500}
 
 
+
+## Levels of Measurement
+[wikipedia definition:](https://en.wikipedia.org/wiki/Level_of_measurement)
+
+> "Level of measurement or scale of measure is a classification that describes the nature of information within the values assigned to variables."
+
+
+## Examples:
+
+- **Nominal**<br>
+metal becomes red: "it's hot": identify a particular state
+
+- **Ordinal**<br>
+thermoscope: shows ordered variations
+
+- **Interval** <br>
+thermometer (°C): intervals are meaningful
+
+- **Ratio**<br>
+thermometer (K): there is an absolute zero
+
+
+
+
+## Key insights #1
+
+By throwing away information, I can move down the ladder (and vice versa)
+
+
+## Key insights #2
+
+Each measurement level includes a set of arbitrary choices
+
+Ratio has fewer arbitrary choices than Interval.
+
+
+## {.smaller}
+
+### Interval scales *(arbitrary zero)*
+
+**°Celsius**<br> 
+0 = freezing point of water; 
+
+1 unit = 1/100 of the range between freezing (0°C) and boiling (100°C)
+
+<br>
+**°Fahrenheit**<br>
+0 = freezing point of a brine solution (ice + water + salt); 
+
+1 unit = 1/180 of the range between freezing (32°F) and boiling (212°F)
+
+<br>
+<br>
+
+### Ratio scale *(absolute zero)*
+
+**°Kelvin**<br> 
+0 = absolute zero (complete absence of thermal energy); 
+
+1 unit = same magnitude as 1°C
+
+
+## Key insight #3
+
+The level of measurement dictates how that data can be analyzed (i.e., valid math operations), and what type of statements can be made based on those measurements. 
+
+## {.center}
+
+Is 20°C twice as hot as 10°C?
+
+
+##
+
+It is obviously true that
+
+$$20 = 2 \times 10$$
+
+However, for interval-level measurements (assignment of numbers to objects), multiplication is NOT allowed.
+
+
+##
+
+::: {.fragment}
+$$10°C = 50°F$$
+:::
+
+::: {.fragment}
+
+$$20°C = 68°F \neq 100°F$$
+
+:::
+
+
+
+::: {.fragment}
+> cash recipients in “lower-income countries gained three times more happiness than those in higher-income countries” 
+:::
+
+
+
+## {.center}
+
+Is an IQ of 120 twice an IQ of 60?
+
+Is a 120cm tall child twice as tall as a 60cm child?
+
+
+::: {.fragment}
+<br>
+
+"The answer is not included in the numbers".
+
+:::
+
+
+## Key insight #4
+
+Because measurement levels imply some level of arbitrariness (e.g., choice of unit), all else being equal, measures at the same level of measurement are informationally equivalent.
+
+
+<br>
+Example: 
+I can convert °C to °F and vice versa without losing information (the numbers are different, but the information is the same).
+
+
+
+## Key insight #5
+
+The level of measurement is a property of the measurement, not of the construct: 
+
+<br>
+
+::: {.fragment}
+Temperature is *theorized* as a continuous positive quantity. 
+:::
+
+::: {.fragment}
+
+Depending on the *instrument* used,
+
+- we will have measures that are of type Nominal, Ordinal, Interval, Ratio
+- we will be allowed to do certain operations, but not others
+- we will be allowed to make certain types of quantitative statements
+
+:::
+
+
+
 ## Caution: {.center}
 
 It's easy to make the *mistake* of assigning numeric properties to reality when using numbers to represent measurements!
+
+
+## Caution: {.center}
+
+The 4 levels of measurement (N-O-I-R) were proposed by Stanley Smith Stevens in 1946; 
+
+That's not the end of the story... see [Wikipedia](https://en.wikipedia.org/wiki/Level_of_measurement)
+
 
 
 ## Does this actually matter? {.center}
@@ -358,11 +514,16 @@ Bringmann, L. F., & Eronen, M. I. (2016). Heating up the measurement debate: Wha
 
 <br>
 Answer:
+
 - What are the 3 main points made by Bringmann & Eronen (2016)?
+
 - List and briefly explain the three points. 
+
 - Do you agree with them?
 
 
+
+<!--
 ##
 
 Some key ideas:
@@ -372,7 +533,7 @@ Some key ideas:
 - triangulation of methods
 - "miraculous" correct predictions
 
-
+-->
 
 
 
