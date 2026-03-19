@@ -1,0 +1,14 @@
+---
+title: "Chapter 4: Reliability"
+---
+
+Reliability is a key concept in pschometrics. In this chapter we will review different ways to conceptualize reliability and as well as how it is defined and operationalized in Classic Test Theory.
+
+
+
+## Lecture Slides
+
+- [workshop](slides/reliability_workshop.qmd)
+<!--
+- [lecture](slides/reliability.qmd)
+-->
