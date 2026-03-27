@@ -306,9 +306,7 @@ $$\rho_{XX'} = \frac{\sigma^2_T}{\sigma^2_X} = \frac{\sigma^2_T}{\sigma^2_T + \s
 ## Computer simulations {.center}
 
 
-```{r}
-#| eval: false
-#| echo: true
+```r
 set.seed(42)
 
 # true score parameters
@@ -323,7 +321,6 @@ n <- 500
 true_scores <- rnorm(n, m, s)
 error_scores <- rnorm(n, 0, s_err)
 observed_scores <- true_scores + error_scores
-
 ```
 
 ##
