@@ -20,6 +20,870 @@
     ]
   },
   {
+    "objectID": "chapters/chapter4/slides/reliability.html#recap",
+    "href": "chapters/chapter4/slides/reliability.html#recap",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Recap",
+    "text": "Recap\nWe listed several approaches to determine the reliability of a thermometer.\nThe same approaches did not seem to work well for questionnaire data."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#classical-test-theory-ctt",
+    "href": "chapters/chapter4/slides/reliability.html#classical-test-theory-ctt",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Classical Test Theory (CTT)",
+    "text": "Classical Test Theory (CTT)\nIn psychometrics, “reliability” is most often associated to “Classic Test Theory” (aka “True Score Theory”)."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section",
+    "href": "chapters/chapter4/slides/reliability.html#section",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "“[Lord and Novick (1968)’s] treatment of the classical test model […] is arguably the most influential treatise on psychological measurement in the history of psychology.”\n\n\n\n[…] few psychologists know about the other approaches […] but every psychologist knows about true scores, random error, and reliability–the core concepts of classical test theory” (p11)\n\n\n\nBorsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#what-people-say-about-it.",
+    "href": "chapters/chapter4/slides/reliability.html#what-people-say-about-it.",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "What people say about it.",
+    "text": "What people say about it.\nCTT is still relevant today:\n\n\n“The fact that CTT was developed before IRT does not mean that CTT is outdated or replaced by IRT. Both CTT and IRT provide useful statistics to help us analyze data. […] For many item analyses, CTT may be sufficient to provide the information we need.”\n\n\n\n\n“[…] we stress that CTT is an important part of the methodologies for educational and psychological measurement. In particular, the exposition of the concept of reliability in CTT sets the basis for evaluating measuring instruments.”\n\n\n\nWu et al. (2016) Educational Measurement for Applied Researchers, Chapter 5: Classic Test Theory"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#what-people-say-about-it.-1",
+    "href": "chapters/chapter4/slides/reliability.html#what-people-say-about-it.-1",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "What people say about it.",
+    "text": "What people say about it.\nCTT is fundamentally flawed:\n\n\n“In the context of psychological measurement, the stated assumptions are unrealistic […]” (p16)\n\n\n\n\n“Basically, the classical test theorist is trying to sell you shoes which are obviously three sizes too small.” (p20)\n\n\n\n\n“[…] 95 per cent of researchers involved in research in differential psychology are probably not doing what they think they are doing. For no concept in test theory has been so prone to misinterpretation as the true score.” (p31)\n\n\n\n\n“[…] the platonic true score interpretation is like an alien in a B-movie: no matter how hard you beat it up, it keeps coming back.” (p32)\n\n\n\nBorsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-1",
+    "href": "chapters/chapter4/slides/reliability.html#section-1",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Measuring the Mind\n\n\n\n\n\n\nBorsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#what-do-you-think",
+    "href": "chapters/chapter4/slides/reliability.html#what-do-you-think",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "What do you think?",
+    "text": "What do you think?\n\nWhat is CTT?\nWhat are its main criticisms?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#goal",
+    "href": "chapters/chapter4/slides/reliability.html#goal",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Goal",
+    "text": "Goal\nOur main goal is to determine the reliability of our questionnaire.\nTo do so we will go through some “theoretical acrobatics” (p31)\n\nBorsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#core-idea-1",
+    "href": "chapters/chapter4/slides/reliability.html#core-idea-1",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "core idea #1",
+    "text": "core idea #1\n\nCTT defines the true score of person \\(i\\), \\(t_i\\) as the expectation of the observed score \\(X_i\\) over replications:\n\\[ t_i \\equiv \\mathbb{E}[X_i]\\]\n\n\nWe can never observe \\(t_i\\)!"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#core-idea-2",
+    "href": "chapters/chapter4/slides/reliability.html#core-idea-2",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "core idea #2",
+    "text": "core idea #2\n\nCTT defines the error score \\(E_i\\) as the difference between the observed score the true score:\n\\[E_i \\equiv X_i - t_i \\]\n\n\n\nNote: \\(X_i\\) and \\(E_i\\) are random variables, \\(t_i\\) is by definition a constant."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#core-idea-3-main-equation",
+    "href": "chapters/chapter4/slides/reliability.html#core-idea-3-main-equation",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "core idea #3 (main equation)",
+    "text": "core idea #3 (main equation)\n\nWhen testing multiple people, an extra source of randomness is introduced by sampling from a population.\n\\[X = T + E\\]\n\n(i.e., true score is now also a random variable)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#in-words",
+    "href": "chapters/chapter4/slides/reliability.html#in-words",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "In words…",
+    "text": "In words…\nEach person \\(i\\) has an observed score \\(x_i\\). CTT states that this \\(x_i\\) can be broken down into \\(t_i\\) which is that person’s true score, and \\(e_i\\) the measurement error which explains why the observed score does not perfectly match the true score."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-2",
+    "href": "chapters/chapter4/slides/reliability.html#section-2",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "That same person could have responded somewhat differently on that test: in that case the value of \\(e_i\\) would be different and the value of \\(x_i\\) would also be different, but the value of \\(t_i\\) would be the same.\n\n\n(i.e., \\(X_i\\) and \\(E_i\\) are viewed as random variables and \\(x_i\\) and \\(e_i\\) are specific realisations of those RAs)."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-3",
+    "href": "chapters/chapter4/slides/reliability.html#section-3",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "By CTT definition, if we were to compute the average across replications of the test score, we would get an estimate of the person’s true score.\n Defining \\(t_i \\equiv \\mathbb{E}[X_i]\\) necessarily implies \\(\\mathbb{E}[E_i]=0\\)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-4",
+    "href": "chapters/chapter4/slides/reliability.html#section-4",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "By CTT definition, the true scores and the error scores are independent from each other (i.e., no correlation)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#do-these-assumptions-make-sense",
+    "href": "chapters/chapter4/slides/reliability.html#do-these-assumptions-make-sense",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Do these assumptions make sense?",
+    "text": "Do these assumptions make sense?\n\nthe true score is unknown\nwhat does “could have” mean?\nsetting true score to be equal the expectation of the test score is problematic (e.g., assumes no bias)\ntrue score definition is inherently tied to a specific test"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#reliability",
+    "href": "chapters/chapter4/slides/reliability.html#reliability",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Reliability",
+    "text": "Reliability\nGiven \\(X = T + E\\),\nhow would you define reliability?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#reliability-1",
+    "href": "chapters/chapter4/slides/reliability.html#reliability-1",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Reliability",
+    "text": "Reliability\n… the fraction of the observed variance \\(\\sigma^2_X\\) that is due to variation in true scores \\(\\sigma^2_T\\) as opposed to random error \\(\\sigma^2_E\\)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-5",
+    "href": "chapters/chapter4/slides/reliability.html#section-5",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Given that \\(T\\) and \\(E\\) are independent (by definition),\n\\[\\sigma^2_X = \\sigma^2_T + \\sigma^2_E\\]\n\nWe can define reliability as\n\\[\n\\rho^2_{XT} = \\frac{\\sigma^2_T}{\\sigma^2_X} = \\frac{\\sigma^2_T}{\\sigma^2_T + \\sigma^2_E}\n\\]"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#computer-simulations",
+    "href": "chapters/chapter4/slides/reliability.html#computer-simulations",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Computer simulations",
+    "text": "Computer simulations\nset.seed(42)\n\n# true score parameters\nm &lt;- 100 #  mean of true score in the population\ns &lt;- 15  # standard deviation of true score in the population\n\n# error score parameters\ns_err &lt;- 20\n\n# simulating data\nn &lt;- 500\ntrue_scores &lt;- rnorm(n, m, s)\nerror_scores &lt;- rnorm(n, 0, s_err)\nobserved_scores &lt;- true_scores + error_scores"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#exercise",
+    "href": "chapters/chapter4/slides/reliability.html#exercise",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Exercise",
+    "text": "Exercise\nCalculate the reliability\n(measuring-the-mind-labs on github)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#reliability-depends-on-the-population-tested",
+    "href": "chapters/chapter4/slides/reliability.html#reliability-depends-on-the-population-tested",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Reliability depends on the population tested!",
+    "text": "Reliability depends on the population tested!\nIntuition:\n\n\nLow reliability \\(\\rho \\approx 0\\)\nMost variance is noise — the instrument is unstable\n\nHigh reliability \\(\\rho \\approx 1\\)\nMost variance reflects real differences between people\n\n\n\nReliability tells us how much we can trust that differences in scores reflect real differences in the underlying attribute.\n\n\nIt is not the variance of the error!"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-7",
+    "href": "chapters/chapter4/slides/reliability.html#section-7",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Are we done?\nCan we do this in practice?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-8",
+    "href": "chapters/chapter4/slides/reliability.html#section-8",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "In practice, we obviously don’t know the true scores, so we can’t compute \\(\\sigma^2_T\\) and thus we can’t use that equation for computing reliability.\n\nHow do we get out of this impasse?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#parallel-tests",
+    "href": "chapters/chapter4/slides/reliability.html#parallel-tests",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Parallel tests!",
+    "text": "Parallel tests!\nAssume that people complete the same test twice (with “brainwashing”).\n\\[x_i^{(1)} = t_i + e_i^{(1)}\\]\n\\[x_i^{(2)} = t_i + e_i^{(2)}\\]\nwe assume also that \\(cov(E^{(1)}, E^{(2)}) = 0\\)\nIntuitively, the correlation between \\(X^{(1)}\\) and \\(X^{(2)}\\) tells us something about reliability."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-9",
+    "href": "chapters/chapter4/slides/reliability.html#section-9",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Reliability defined as correlation between parallel tests\n\nchanging notation for consistency: \\[\\rho_{XX'} = \\rho_{X^{(1)}X^{(2)}}\\]\n\n\napplying the correlation formula: \\[\n\\rho_{XX'} = \\frac{cov(XX')}{\\sigma_{X} \\sigma_{X'}}\n\\]\n\n\nbased on CTT assumptions:\n\\[\n\\rho_{XX'} = \\frac{cov(XX')}{\\sigma_{X} \\sigma_{X'}} = \\frac{\\sigma^2_T}{\\sigma^2_X}\n\\]"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-10",
+    "href": "chapters/chapter4/slides/reliability.html#section-10",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "\\[\n\\rho_{XX'} = \\rho_{XT}^2  =  \\frac{\\sigma^2_T}{\\sigma^2_X}\n\\]"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-11",
+    "href": "chapters/chapter4/slides/reliability.html#section-11",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Recall our little experiment:\n\nHow tired are you now? On a scale from 1 (fully awake) to 10 (almost asleep)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-12",
+    "href": "chapters/chapter4/slides/reliability.html#section-12",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Q1\nQ2\nQ3\n\n\n\n\n5\n5\n5\n\n\n4\n4\n5\n\n\n2\n2\n4\n\n\n5\n5\n6\n\n\n7\n5\n5\n\n\n7\n7\n7\n\n\n7\n6\n8\n\n\n6\n6\n7\n\n\n7\n7\n8\n\n\n4\n4\n4\n\n\n3\n3\n4"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-13",
+    "href": "chapters/chapter4/slides/reliability.html#section-13",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Can we consider these 3 completions of the test as being “equivalent”?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-14",
+    "href": "chapters/chapter4/slides/reliability.html#section-14",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "What does “error” mean in this context?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#exercise-1",
+    "href": "chapters/chapter4/slides/reliability.html#exercise-1",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Exercise",
+    "text": "Exercise\nCompute the reliability on this dataset (see notebook)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#four-main-approaches",
+    "href": "chapters/chapter4/slides/reliability.html#four-main-approaches",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Four main approaches",
+    "text": "Four main approaches\n\nTest-retest reliability\nParallel forms reliability\nInternal consistency\nInter-rater reliability"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#test-retest-reliability",
+    "href": "chapters/chapter4/slides/reliability.html#test-retest-reliability",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "1. Test-retest reliability",
+    "text": "1. Test-retest reliability\nAdminister the same instrument twice to the same people, separated by a time interval.\n\\[r_{tt} = \\text{cor}(X_{\\text{time 1}},\\ X_{\\text{time 2}})\\]\n\nProblem: how long to wait?\n\nToo short → carry-over effects (memory)\nToo long → true change in the attribute"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#parallel-forms-reliability",
+    "href": "chapters/chapter4/slides/reliability.html#parallel-forms-reliability",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "2. Parallel forms reliability",
+    "text": "2. Parallel forms reliability\nCreate two equivalent versions of the instrument and administer both to the same people.\n\nParallel forms must satisfy:\n\nEqual true score means: \\(\\mathbb{E}[X_1] = \\mathbb{E}[X_2]\\)\nEqual error variances: \\(\\sigma^2_{E_1} = \\sigma^2_{E_2}\\)\n\n\n\nProblem: constructing truly parallel forms is difficult in practice."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#internal-consistency",
+    "href": "chapters/chapter4/slides/reliability.html#internal-consistency",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "3. Internal consistency",
+    "text": "3. Internal consistency\nEstimate reliability from a single administration using the covariance structure among items.\n\nThe key idea: if items measure the same construct, they should correlate with each other.\n\nchapters/chapter4/slides/reliability.qmd ## Split-half reliability {.smaller .center}\nSplit the test into two halves (e.g., odd vs. even items) and correlate their scores.\n\\[r_{\\text{split-half}} = \\text{cor}(X_{\\text{half 1}},\\ X_{\\text{half 2}})\\]\n\nApply the Spearman-Brown correction to estimate full-test reliability:\n\\[r_{SB} = \\frac{2\\, r_{\\text{split-half}}}{1 + r_{\\text{split-half}}}\\]\n\n\nProblem: the result depends on how you split the test."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#cronbachs-alpha",
+    "href": "chapters/chapter4/slides/reliability.html#cronbachs-alpha",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Cronbach’s \\(\\alpha\\)",
+    "text": "Cronbach’s \\(\\alpha\\)\nCronbach’s \\(\\alpha\\) generalises split-half reliability by averaging over all possible split-halves:\n\\[\\alpha = \\frac{k}{k-1} \\left(1 - \\frac{\\sum_{i=1}^{k} \\sigma^2_{Y_i}}{\\sigma^2_X}\\right)\\]\n\n\n\\(k\\) = number of items\n\\(\\sigma^2_{Y_i}\\) = variance of item \\(i\\)\n\\(\\sigma^2_X\\) = variance of the total score\n\n\n\n\\(\\alpha\\) is a lower bound on reliability — it equals reliability only when the \\(\\tau\\)-equivalence assumption holds."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#interpreting-alpha",
+    "href": "chapters/chapter4/slides/reliability.html#interpreting-alpha",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Interpreting \\(\\alpha\\)",
+    "text": "Interpreting \\(\\alpha\\)\nCommon (rough) guidelines:\n\n\n\n\\(\\alpha\\)\nInterpretation\n\n\n\n\n\\(\\geq .90\\)\nExcellent\n\n\n\\(.80 - .89\\)\nGood\n\n\n\\(.70 - .79\\)\nAcceptable\n\n\n\\(.60 - .69\\)\nQuestionable\n\n\n\\(&lt; .60\\)\nPoor\n\n\n\n\n\nThese thresholds are just conventions."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#inter-rater-reliability",
+    "href": "chapters/chapter4/slides/reliability.html#inter-rater-reliability",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "4. Inter-rater reliability",
+    "text": "4. Inter-rater reliability\nWhen scores are assigned by human judges, we want to know how consistently different raters agree.\n\nCommon indices:\n\nPercent agreement (simple but ignores chance)\nCohen’s \\(\\kappa\\) (corrects for chance agreement)\nIntraclass correlation (ICC) (for continuous ratings)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-15",
+    "href": "chapters/chapter4/slides/reliability.html#section-15",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "The Standard Error of Measurement (SEM) expresses reliability in the original unit of the scale:\n\\[SEM = \\sigma_X \\sqrt{1 - \\rho_{XX'}}\\]\n\n\n\\(\\sigma_X\\) = standard deviation of observed scores\n\\(\\rho_{XX'}\\) = reliability coefficient"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-16",
+    "href": "chapters/chapter4/slides/reliability.html#section-16",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "The SEM defines a confidence interval around an observed score:\n\\[T \\in [X \\pm z \\cdot SEM]\\]\n\nExample: if a test has \\(\\sigma_X = 15\\), \\(\\rho = .91\\)\n\\[SEM = 15\\sqrt{1 - .91} = 15 \\times 0.3 = 4.5\\]\nA score of 100 → true score likely in [91, 109] (95% CI)\n\n\n\nThe SEM helps communicate measurement uncertainty in practical, interpretable terms."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-17",
+    "href": "chapters/chapter4/slides/reliability.html#section-17",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "The notion of validity is ill-defined in CTT:\nBy definition the observed score reflects the true score (whatever that is), therefore the test is necessarily valid.\nIt’s not clear however what the true score actually is."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-18",
+    "href": "chapters/chapter4/slides/reliability.html#section-18",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Practical limitations: \nThe true score is (too) tightly coupled to the specific test used.\n\nwhat if someone skips a question?\nwhat if we have limited time to ask questions and want to ask only a subset of questions?\nwhat if we have many questions and we want to ask the questions that are most informative give prior responses (adaptive testing)?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-19",
+    "href": "chapters/chapter4/slides/reliability.html#section-19",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "“[…] frequently, we place one or two easy items at the beginning of a test to ease any anxiety on the part of the students.”\n\nIs this approach consistent with Classic Test Theory?\n\nWu et al. Chapter 5: Classic Test Theory p87"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#section-20",
+    "href": "chapters/chapter4/slides/reliability.html#section-20",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "",
+    "text": "Do you think the reliabilty index as defined by CTT is satisfactory?\nIf your patient fills out a questionnaire and gets a score of 19, what wouly you like a reliability index to tell you about this number?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#section",
+    "href": "chapters/chapter2/slides/history.html#section",
+    "title": "“History” of Measurement",
+    "section": "",
+    "text": "Hand, David J.,\nMeasurement: A Very Short Introduction, Very Short Introductions (Oxford, 2016; online edn, Oxford Academic, 27 Oct. 2016), https://doi.org/10.1093/actrade/9780198779568.001.0001."
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#section-1",
+    "href": "chapters/chapter2/slides/history.html#section-1",
+    "title": "“History” of Measurement",
+    "section": "",
+    "text": "Measurement is as old as civilization:\n\nagriculture\ntrade / accounting\nconstruction\nnavigation\n\nCan you find examples of measurements that are used in each case?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#exercise",
+    "href": "chapters/chapter2/slides/history.html#exercise",
+    "title": "“History” of Measurement",
+    "section": "Exercise",
+    "text": "Exercise\nWhy do we measure things?\n\ngive examples\norganize examples into categories\n\n\nask why multiple times"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#units-of-measurement",
+    "href": "chapters/chapter2/slides/history.html#units-of-measurement",
+    "title": "“History” of Measurement",
+    "section": "Units of Measurement",
+    "text": "Units of Measurement\nWhat references should we pick?\n(For example for length?)"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#use-of-natural-objects",
+    "href": "chapters/chapter2/slides/history.html#use-of-natural-objects",
+    "title": "“History” of Measurement",
+    "section": "use of natural objects",
+    "text": "use of natural objects\nnatural objects as measurements\n\ndry grains of weat\nfathom: height of a man (~ 182.88 cm)\ncubit: length of forearm from elbow to extended fingers (~ 45.72 cm)\nfoot: length of a man’s foot (~ 30.48 cm)\n…\n\nhuman activity\n\nhow much a miner could dig in 1 day\ndistance a bow could shoot an arrow\n…"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#pros-and-cons",
+    "href": "chapters/chapter2/slides/history.html#pros-and-cons",
+    "title": "“History” of Measurement",
+    "section": "Pros and Cons?",
+    "text": "Pros and Cons?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#problems",
+    "href": "chapters/chapter2/slides/history.html#problems",
+    "title": "“History” of Measurement",
+    "section": "Problems",
+    "text": "Problems\n\nvariability of the references\narbitrariness of choice of reference"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability",
+    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability",
+    "title": "“History” of Measurement",
+    "section": "P1: How to reduce variability?",
+    "text": "P1: How to reduce variability?\n\nSolution 1: statistics: compute averages\n\n\n\n\n\n\n\nJacob Koebel (1570)"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology",
+    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology",
+    "title": "“History” of Measurement",
+    "section": "Do we do this in psychology?",
+    "text": "Do we do this in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-1",
+    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-1",
+    "title": "“History” of Measurement",
+    "section": "P1: How to reduce variability?",
+    "text": "P1: How to reduce variability?\n\nSolution 2: use specific objects as references (more stable), make copies and share them.\n\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Toise"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-1",
+    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-1",
+    "title": "“History” of Measurement",
+    "section": "Do we do this in psychology?",
+    "text": "Do we do this in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-2",
+    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-2",
+    "title": "“History” of Measurement",
+    "section": "P1: How to reduce variability?",
+    "text": "P1: How to reduce variability?\n\nSolution 3: use more fundamental physical objects as references (more stable)\n\n\n\n1791, French Academy of Science:\n\n1 meter = distance of North Pole to equator / 10’000’000\n1 second = 1 / 86’400 of a solar day"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-2",
+    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-2",
+    "title": "“History” of Measurement",
+    "section": "Do we do this in psychology?",
+    "text": "Do we do this in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p2-arbitrary-choices",
+    "href": "chapters/chapter2/slides/history.html#p2-arbitrary-choices",
+    "title": "“History” of Measurement",
+    "section": "P2: Arbitrary choices?",
+    "text": "P2: Arbitrary choices?\n\n\nmany systems exist in parallel\nthe same unit could have different names\nthe same name could have different meanings\n\n\n\nThis causes many challenges:\n\nhard to use & understand\nchallenges for communication & interoperability\nhigher error rates"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#complexity",
+    "href": "chapters/chapter2/slides/history.html#complexity",
+    "title": "“History” of Measurement",
+    "section": "Complexity",
+    "text": "Complexity\nwikipedia: Traditional French units of measurement"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#polysemy-homonymy",
+    "href": "chapters/chapter2/slides/history.html#polysemy-homonymy",
+    "title": "“History” of Measurement",
+    "section": "Polysemy, Homonymy",
+    "text": "Polysemy, Homonymy\nThis is still the case today!\n\n“a pint of beer…”\nUS pint &lt; UK pint\n473 ml &lt; 569 ml"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#do-we-have-these-problems-in-psychology",
+    "href": "chapters/chapter2/slides/history.html#do-we-have-these-problems-in-psychology",
+    "title": "“History” of Measurement",
+    "section": "Do we have these problems in psychology?",
+    "text": "Do we have these problems in psychology?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p2-arbitrary-choices-1",
+    "href": "chapters/chapter2/slides/history.html#p2-arbitrary-choices-1",
+    "title": "“History” of Measurement",
+    "section": "P2: Arbitrary choices?",
+    "text": "P2: Arbitrary choices?\nHow can we fix this?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#p2-how-to-reduce-arbitrariness",
+    "href": "chapters/chapter2/slides/history.html#p2-how-to-reduce-arbitrariness",
+    "title": "“History” of Measurement",
+    "section": "P2: How to reduce arbitrariness?",
+    "text": "P2: How to reduce arbitrariness?\n… or rather complexity\n\nSolution: enforce a single unified system\n\n\n\nbenefits are clear and consensual\nbut hard to change habits and adopt new standards"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#systeme-international-dunités-si-units",
+    "href": "chapters/chapter2/slides/history.html#systeme-international-dunités-si-units",
+    "title": "“History” of Measurement",
+    "section": "Systeme International d’Unités (SI units)",
+    "text": "Systeme International d’Unités (SI units)\n1960: 11th General conference on Weight and Measure\n\n\n\n\n\n\n\n\n\n7 SI base Units\n22 named units\nand more…\n\n\n\nhttps://en.wikipedia.org/wiki/International_System_of_Units"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#exercise-1",
+    "href": "chapters/chapter2/slides/history.html#exercise-1",
+    "title": "“History” of Measurement",
+    "section": "Exercise",
+    "text": "Exercise\n\nHave a look at the units of joule. Does it surprise you?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#what-properties-do-you-want-your-reference-to-have",
+    "href": "chapters/chapter2/slides/history.html#what-properties-do-you-want-your-reference-to-have",
+    "title": "“History” of Measurement",
+    "section": "What properties do you want your reference to have?",
+    "text": "What properties do you want your reference to have?\n(aka what units should you pick?)"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#did-we-really-reduce-arbitrariness",
+    "href": "chapters/chapter2/slides/history.html#did-we-really-reduce-arbitrariness",
+    "title": "“History” of Measurement",
+    "section": "Did we really reduce arbitrariness?",
+    "text": "Did we really reduce arbitrariness?\n\nCan we do it?\nDoes it matter?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#how-could-you-measure-the-size-of-earth",
+    "href": "chapters/chapter2/slides/history.html#how-could-you-measure-the-size-of-earth",
+    "title": "“History” of Measurement",
+    "section": "How could you measure the size of Earth?",
+    "text": "How could you measure the size of Earth?"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#section-3",
+    "href": "chapters/chapter2/slides/history.html#section-3",
+    "title": "“History” of Measurement",
+    "section": "",
+    "text": "More detailed explanation:"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#did-eratosthenes-really-measure-the-size-of-earth",
+    "href": "chapters/chapter2/slides/history.html#did-eratosthenes-really-measure-the-size-of-earth",
+    "title": "“History” of Measurement",
+    "section": "Did Eratosthenes really measure the size of Earth?",
+    "text": "Did Eratosthenes really measure the size of Earth?\n\n\nhow can we confirm his estimate is true?\nhe did not measure but infer\nyet the underlying dimension is still “length”"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/history.html#co-evolution-of-science-technology-culture-and-measurement-accuracy",
+    "href": "chapters/chapter2/slides/history.html#co-evolution-of-science-technology-culture-and-measurement-accuracy",
+    "title": "“History” of Measurement",
+    "section": "Co-evolution of science, technology, culture and measurement accuracy",
+    "text": "Co-evolution of science, technology, culture and measurement accuracy\n\nrough measures are initially OK;\nbut as science, technology, and culture advances, more accurate measurements become necessary.\n\n\nExamples:\n\nnavigation\nindustrial revolution\ndiscovery of Pluto based on measured perturbations of the orbit of Uranus"
+  },
+  {
+    "objectID": "chapters/chapter4/chapter4.html",
+    "href": "chapters/chapter4/chapter4.html",
+    "title": "Chapter 4: Reliability",
+    "section": "",
+    "text": "Reliability is a key concept in pschometrics. In this chapter we will review different ways to conceptualize reliability and as well as how it is defined and operationalized in Classic Test Theory.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 4 - Reliability"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter4/chapter4.html#lecture-slides",
+    "href": "chapters/chapter4/chapter4.html#lecture-slides",
+    "title": "Chapter 4: Reliability",
+    "section": "Lecture Slides",
+    "text": "Lecture Slides\n\nworkshop\nlecture",
+    "crumbs": [
+      "Chapters",
+      "Chapter 4 - Reliability"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html",
+    "href": "chapters/chapter2/chapter2.html",
+    "title": "Chapter 2: Some history of measurements",
+    "section": "",
+    "text": "In this chapter we will discuss the evolution of measurements, focusing in particular on the example of length.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2 - History"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html#lecture-slides",
+    "href": "chapters/chapter2/chapter2.html#lecture-slides",
+    "title": "Chapter 2: Some history of measurements",
+    "section": "Lecture Slides",
+    "text": "Lecture Slides\n\nIntroduction",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2 - History"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html",
+    "href": "about/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course Title: Measuring the Mind: Advanced Psychological Measurement Theory\nInstructor: Prof. Pedro Cardoso-Leite",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#course-schedule",
+    "href": "about/syllabus.html#course-schedule",
+    "title": "Syllabus",
+    "section": "Course Schedule",
+    "text": "Course Schedule\ncoming soon",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#grading",
+    "href": "about/syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\n\nClass Participation, Exercises: 25%\nFinal Exam: 75%",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#required-materials",
+    "href": "about/syllabus.html#required-materials",
+    "title": "Syllabus",
+    "section": "Required Materials",
+    "text": "Required Materials\n\nR (latest version)\nRStudio (latest version)\nR packages: tidyverse, lavaan, psych",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "This is the (work in progress) course website for “Measuring the Mind: Advanced Psychological Measurement Theory”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction\nChapter 2: History of measurements\nChapter 3: Different types of measurements\nChapter 4: Reliability\n\nEach chapter may contain links to slides and possibly other resources.\n\n\nThis course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).\n\n\n\nNavigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/index.html#course-overview",
+    "href": "about/index.html#course-overview",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "This course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/index.html#getting-started",
+    "href": "about/index.html#getting-started",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "Navigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/overview.html",
+    "href": "about/overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#description",
+    "href": "about/overview.html#description",
+    "title": "Course Overview",
+    "section": "",
+    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#when-and-where",
+    "href": "about/overview.html#when-and-where",
+    "title": "Course Overview",
+    "section": "When and Where",
+    "text": "When and Where",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
+    "href": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
+    "title": "Course Overview",
+    "section": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)",
+    "text": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)\nAdvanced psychological measurement theory SM\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nTu 24.02\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nTu 03.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nTu 10.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nTu 17.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nTu 24.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nTu 31.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nTu 21.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n8\nTu 28.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n9\nTu 05.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n10\nTu 12.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html",
+    "href": "chapters/chapter1/chapter1.html",
+    "title": "Chapter 1: Introduction",
+    "section": "",
+    "text": "Measurement is a fundamental building block of science: without measurement we can’t build, refine or disprove theories, without theories we would not know what to measure. Across the history of science theory and measurements co-evolve, each benefitting the other.\nAs scientists, but more generally, as a citizen aiming to understand the world around us, it is important to reflect on what it means to measure something and how to do so. This course will cover measurement from a diversity of perspectives. The goal is not to “sell” a specific theory of measurement in psychology but instead to raise awareness about the importance of measurement theory in psychology and to develop your critical thinking in this domain. At the end of the course you may not have more answeres, but you certainly will have more questions.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html#lecture-slides",
+    "href": "chapters/chapter1/chapter1.html#lecture-slides",
+    "title": "Chapter 1: Introduction",
+    "section": "Lecture Slides",
+    "text": "Lecture Slides\n\nIntroduction",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter3/chapter3.html",
+    "href": "chapters/chapter3/chapter3.html",
+    "title": "Chapter 3: Different types of measurements",
+    "section": "",
+    "text": "In this chapter we will review different ways in which measurements have been classified in types and ask the question of how measurements in psychology are similar or different from measurements in physics.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 3 - Types of Measurement"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter3/chapter3.html#lecture-slides",
+    "href": "chapters/chapter3/chapter3.html#lecture-slides",
+    "title": "Chapter 3: Different types of measurements",
+    "section": "Lecture Slides",
+    "text": "Lecture Slides\n\nIntroduction",
+    "crumbs": [
+      "Chapters",
+      "Chapter 3 - Types of Measurement"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#welcome",
+    "href": "chapters/chapter1/slides/mm_intro.html#welcome",
+    "title": "Measuring the Mind",
+    "section": "Welcome!",
+    "text": "Welcome!"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#course-objectives",
+    "href": "chapters/chapter1/slides/mm_intro.html#course-objectives",
+    "title": "Measuring the Mind",
+    "section": "Course objectives",
+    "text": "Course objectives\n\nunderstand the key concepts in psychological measurement theory\nbuild up a comprehensive understanding of specific methods (e.g., Item Response Theory)\ndevelop critical thinking regarding measurements in psychology"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#logistics-materials",
+    "href": "chapters/chapter1/slides/mm_intro.html#logistics-materials",
+    "title": "Measuring the Mind",
+    "section": "Logistics & materials",
+    "text": "Logistics & materials\n\nMoodle course page\n\nexercises\nannouncements\nprivate documents (e.g., articles)\n\n\n\nCourse website\n\nslides\n\n\n\nLabs\n\nexercises/labs\n\n\n\nContent will be updated during the course."
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#grading",
+    "href": "chapters/chapter1/slides/mm_intro.html#grading",
+    "title": "Measuring the Mind",
+    "section": "Grading",
+    "text": "Grading\n\nParticipation & Exercises 25%\nFinal Exam: 75%"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#what-is-this-course-about",
+    "href": "chapters/chapter1/slides/mm_intro.html#what-is-this-course-about",
+    "title": "Measuring the Mind",
+    "section": "What is this course about?",
+    "text": "What is this course about?\n“Advanced Psychological Measurement Theory”\n\nTheory\nMeasurement\nPsychological\nAdvanced"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#how-are-these-topics-typically-covered",
+    "href": "chapters/chapter1/slides/mm_intro.html#how-are-these-topics-typically-covered",
+    "title": "Measuring the Mind",
+    "section": "How are these topics typically covered?",
+    "text": "How are these topics typically covered?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#section",
+    "href": "chapters/chapter1/slides/mm_intro.html#section",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "Based on the “What is measurement?” paper (see Documents in Moodle), or any other document, answer the following questions:\n\nWhat are some classic definitions of measurement?\nWhat do you think of them?\nWhat are the main keywords/concepts typically covered in measurement theory accounts?\n\n\n\nSubmit your responses in Moodle: assignment: “key concepts and definitions” as 1 PDF file following the convention &lt;last_name&gt;_definitions.pdf\n\n\nYou can/should work in groups, but everyone must submit a document (can be the same for all group members).\n\n\nDon’t use LLMs blindly; think for yourself!"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#use-cases-1",
+    "href": "chapters/chapter1/slides/mm_intro.html#use-cases-1",
+    "title": "Measuring the Mind",
+    "section": "Use cases",
+    "text": "Use cases\nSometimes theory prevents us from seeing reality.\n\nWe will see a few examples where measurement plays/played a central role (positively or negatively).\nThe goal is to evaluate to what extent the classic psychological measurement theory is adequate and useful in those various scenarios."
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#section-1",
+    "href": "chapters/chapter1/slides/mm_intro.html#section-1",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "What do these “stories” tell you about measurement?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#hysteria-1",
+    "href": "chapters/chapter1/slides/mm_intro.html#hysteria-1",
+    "title": "Measuring the Mind",
+    "section": "Hysteria",
+    "text": "Hysteria\nsee also:\n\nhttps://www.youtube.com/watch?v=Tz4QmbTDRYs\nhttps://www.youtube.com/watch?v=8-CcnAzt0ZI"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#witchcraft-1",
+    "href": "chapters/chapter1/slides/mm_intro.html#witchcraft-1",
+    "title": "Measuring the Mind",
+    "section": "Witchcraft",
+    "text": "Witchcraft\nsee also:\n\nRobinson, Daniel (1997) “The Great Ideas of Psychology”, Lecture 3: Minds Possessed—Witchery and the Search for Explanations\nhttps://www.youtube.com/watch?v=rW4XFiHUQAs"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#witchcraft-tests",
+    "href": "chapters/chapter1/slides/mm_intro.html#witchcraft-tests",
+    "title": "Measuring the Mind",
+    "section": "Witchcraft tests",
+    "text": "Witchcraft tests\n“Scientific” tests were developed to avoid “unfair” diagnosis.\nDefinitive Resource: The Malleus Maleficarum\n\nsee Witch Diagnostics"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#section-4",
+    "href": "chapters/chapter1/slides/mm_intro.html#section-4",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "Swimming test"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#section-5",
+    "href": "chapters/chapter1/slides/mm_intro.html#section-5",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "Witch Marks"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#section-6",
+    "href": "chapters/chapter1/slides/mm_intro.html#section-6",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "Pricking Test"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#section-7",
+    "href": "chapters/chapter1/slides/mm_intro.html#section-7",
+    "title": "Measuring the Mind",
+    "section": "",
+    "text": "Tear Test\n\nThe accused is read a text about the sacrifice of Jesus; if the accused does not form tears by the end of the story, the accused is presumed to be a witch."
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#concerns-about-validity",
+    "href": "chapters/chapter1/slides/mm_intro.html#concerns-about-validity",
+    "title": "Measuring the Mind",
+    "section": "Concerns about validity",
+    "text": "Concerns about validity\n“Witchcraft is real, but…\n\nperhaps older women are less biologically able to form tears\nperhaps they float because of their lower bone density\n…\n\n\nJohann Weyer’s De Prestigiis Daemonum, 16th century"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#running-walking",
+    "href": "chapters/chapter1/slides/mm_intro.html#running-walking",
+    "title": "Measuring the Mind",
+    "section": "running, walking",
+    "text": "running, walking"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#seizures",
+    "href": "chapters/chapter1/slides/mm_intro.html#seizures",
+    "title": "Measuring the Mind",
+    "section": "seizures",
+    "text": "seizures"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#patient-testimony",
+    "href": "chapters/chapter1/slides/mm_intro.html#patient-testimony",
+    "title": "Measuring the Mind",
+    "section": "Patient testimony",
+    "text": "Patient testimony"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#misdiagnosis",
+    "href": "chapters/chapter1/slides/mm_intro.html#misdiagnosis",
+    "title": "Measuring the Mind",
+    "section": "Misdiagnosis",
+    "text": "Misdiagnosis"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/mm_intro.html#neurosymptoms.org",
+    "href": "chapters/chapter1/slides/mm_intro.html#neurosymptoms.org",
+    "title": "Measuring the Mind",
+    "section": "Neurosymptoms.org",
+    "text": "Neurosymptoms.org"
+  },
+  {
     "objectID": "chapters/chapter3/slides/types_of_measurment.html#different-types-of-measurement",
     "href": "chapters/chapter3/slides/types_of_measurment.html#different-types-of-measurement",
     "title": "Different types of Measurement",
@@ -277,555 +1141,6 @@
     "title": "Different types of Measurement",
     "section": "",
     "text": "Read: \nBringmann, L. F., & Eronen, M. I. (2016). Heating up the measurement debate: What psychologists can learn from the history of physics. Theory & Psychology, 26(1), 27-43.\n Answer:\n\nWhat are the 3 main points made by Bringmann & Eronen (2016)?\nList and briefly explain the three points.\nDo you agree with them?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#welcome",
-    "href": "chapters/chapter1/slides/mm_intro.html#welcome",
-    "title": "Measuring the Mind",
-    "section": "Welcome!",
-    "text": "Welcome!"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#course-objectives",
-    "href": "chapters/chapter1/slides/mm_intro.html#course-objectives",
-    "title": "Measuring the Mind",
-    "section": "Course objectives",
-    "text": "Course objectives\n\nunderstand the key concepts in psychological measurement theory\nbuild up a comprehensive understanding of specific methods (e.g., Item Response Theory)\ndevelop critical thinking regarding measurements in psychology"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#logistics-materials",
-    "href": "chapters/chapter1/slides/mm_intro.html#logistics-materials",
-    "title": "Measuring the Mind",
-    "section": "Logistics & materials",
-    "text": "Logistics & materials\n\nMoodle course page\n\nexercises\nannouncements\nprivate documents (e.g., articles)\n\n\n\nCourse website\n\nslides\n\n\n\nLabs\n\nexercises/labs\n\n\n\nContent will be updated during the course."
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#grading",
-    "href": "chapters/chapter1/slides/mm_intro.html#grading",
-    "title": "Measuring the Mind",
-    "section": "Grading",
-    "text": "Grading\n\nParticipation & Exercises 25%\nFinal Exam: 75%"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#what-is-this-course-about",
-    "href": "chapters/chapter1/slides/mm_intro.html#what-is-this-course-about",
-    "title": "Measuring the Mind",
-    "section": "What is this course about?",
-    "text": "What is this course about?\n“Advanced Psychological Measurement Theory”\n\nTheory\nMeasurement\nPsychological\nAdvanced"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#how-are-these-topics-typically-covered",
-    "href": "chapters/chapter1/slides/mm_intro.html#how-are-these-topics-typically-covered",
-    "title": "Measuring the Mind",
-    "section": "How are these topics typically covered?",
-    "text": "How are these topics typically covered?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#section",
-    "href": "chapters/chapter1/slides/mm_intro.html#section",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "Based on the “What is measurement?” paper (see Documents in Moodle), or any other document, answer the following questions:\n\nWhat are some classic definitions of measurement?\nWhat do you think of them?\nWhat are the main keywords/concepts typically covered in measurement theory accounts?\n\n\n\nSubmit your responses in Moodle: assignment: “key concepts and definitions” as 1 PDF file following the convention &lt;last_name&gt;_definitions.pdf\n\n\nYou can/should work in groups, but everyone must submit a document (can be the same for all group members).\n\n\nDon’t use LLMs blindly; think for yourself!"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#use-cases-1",
-    "href": "chapters/chapter1/slides/mm_intro.html#use-cases-1",
-    "title": "Measuring the Mind",
-    "section": "Use cases",
-    "text": "Use cases\nSometimes theory prevents us from seeing reality.\n\nWe will see a few examples where measurement plays/played a central role (positively or negatively).\nThe goal is to evaluate to what extent the classic psychological measurement theory is adequate and useful in those various scenarios."
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#section-1",
-    "href": "chapters/chapter1/slides/mm_intro.html#section-1",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "What do these “stories” tell you about measurement?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#hysteria-1",
-    "href": "chapters/chapter1/slides/mm_intro.html#hysteria-1",
-    "title": "Measuring the Mind",
-    "section": "Hysteria",
-    "text": "Hysteria\nsee also:\n\nhttps://www.youtube.com/watch?v=Tz4QmbTDRYs\nhttps://www.youtube.com/watch?v=8-CcnAzt0ZI"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#witchcraft-1",
-    "href": "chapters/chapter1/slides/mm_intro.html#witchcraft-1",
-    "title": "Measuring the Mind",
-    "section": "Witchcraft",
-    "text": "Witchcraft\nsee also:\n\nRobinson, Daniel (1997) “The Great Ideas of Psychology”, Lecture 3: Minds Possessed—Witchery and the Search for Explanations\nhttps://www.youtube.com/watch?v=rW4XFiHUQAs"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#witchcraft-tests",
-    "href": "chapters/chapter1/slides/mm_intro.html#witchcraft-tests",
-    "title": "Measuring the Mind",
-    "section": "Witchcraft tests",
-    "text": "Witchcraft tests\n“Scientific” tests were developed to avoid “unfair” diagnosis.\nDefinitive Resource: The Malleus Maleficarum\n\nsee Witch Diagnostics"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#section-4",
-    "href": "chapters/chapter1/slides/mm_intro.html#section-4",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "Swimming test"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#section-5",
-    "href": "chapters/chapter1/slides/mm_intro.html#section-5",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "Witch Marks"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#section-6",
-    "href": "chapters/chapter1/slides/mm_intro.html#section-6",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "Pricking Test"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#section-7",
-    "href": "chapters/chapter1/slides/mm_intro.html#section-7",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "Tear Test\n\nThe accused is read a text about the sacrifice of Jesus; if the accused does not form tears by the end of the story, the accused is presumed to be a witch."
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#concerns-about-validity",
-    "href": "chapters/chapter1/slides/mm_intro.html#concerns-about-validity",
-    "title": "Measuring the Mind",
-    "section": "Concerns about validity",
-    "text": "Concerns about validity\n“Witchcraft is real, but…\n\nperhaps older women are less biologically able to form tears\nperhaps they float because of their lower bone density\n…\n\n\nJohann Weyer’s De Prestigiis Daemonum, 16th century"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#running-walking",
-    "href": "chapters/chapter1/slides/mm_intro.html#running-walking",
-    "title": "Measuring the Mind",
-    "section": "running, walking",
-    "text": "running, walking"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#seizures",
-    "href": "chapters/chapter1/slides/mm_intro.html#seizures",
-    "title": "Measuring the Mind",
-    "section": "seizures",
-    "text": "seizures"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#patient-testimony",
-    "href": "chapters/chapter1/slides/mm_intro.html#patient-testimony",
-    "title": "Measuring the Mind",
-    "section": "Patient testimony",
-    "text": "Patient testimony"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#misdiagnosis",
-    "href": "chapters/chapter1/slides/mm_intro.html#misdiagnosis",
-    "title": "Measuring the Mind",
-    "section": "Misdiagnosis",
-    "text": "Misdiagnosis"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/mm_intro.html#neurosymptoms.org",
-    "href": "chapters/chapter1/slides/mm_intro.html#neurosymptoms.org",
-    "title": "Measuring the Mind",
-    "section": "Neurosymptoms.org",
-    "text": "Neurosymptoms.org"
-  },
-  {
-    "objectID": "chapters/chapter3/chapter3.html",
-    "href": "chapters/chapter3/chapter3.html",
-    "title": "Chapter 3: Different types of measurements",
-    "section": "",
-    "text": "In this chapter we will review different ways in which measurements have been classified in types and ask the question of how measurements in psychology are similar or different from measurements in physics.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 3 - Types of Measurement"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter3/chapter3.html#lecture-slides",
-    "href": "chapters/chapter3/chapter3.html#lecture-slides",
-    "title": "Chapter 3: Different types of measurements",
-    "section": "Lecture Slides",
-    "text": "Lecture Slides\n\nIntroduction",
-    "crumbs": [
-      "Chapters",
-      "Chapter 3 - Types of Measurement"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter1/chapter1.html",
-    "href": "chapters/chapter1/chapter1.html",
-    "title": "Chapter 1: Introduction",
-    "section": "",
-    "text": "Measurement is a fundamental building block of science: without measurement we can’t build, refine or disprove theories, without theories we would not know what to measure. Across the history of science theory and measurements co-evolve, each benefitting the other.\nAs scientists, but more generally, as a citizen aiming to understand the world around us, it is important to reflect on what it means to measure something and how to do so. This course will cover measurement from a diversity of perspectives. The goal is not to “sell” a specific theory of measurement in psychology but instead to raise awareness about the importance of measurement theory in psychology and to develop your critical thinking in this domain. At the end of the course you may not have more answeres, but you certainly will have more questions.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 1 - Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter1/chapter1.html#lecture-slides",
-    "href": "chapters/chapter1/chapter1.html#lecture-slides",
-    "title": "Chapter 1: Introduction",
-    "section": "Lecture Slides",
-    "text": "Lecture Slides\n\nIntroduction",
-    "crumbs": [
-      "Chapters",
-      "Chapter 1 - Introduction"
-    ]
-  },
-  {
-    "objectID": "about/overview.html",
-    "href": "about/overview.html",
-    "title": "Course Overview",
-    "section": "",
-    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#description",
-    "href": "about/overview.html#description",
-    "title": "Course Overview",
-    "section": "",
-    "text": "Advanced Psychological Measurement Theory covers the theoretical foundations and practical applications of modern psychometric methods. The course explores both classical and contemporary approaches to psychological assessment and test development. It will present current challenges in psychological measurement and encourage critical thinking.",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#when-and-where",
-    "href": "about/overview.html#when-and-where",
-    "title": "Course Overview",
-    "section": "When and Where",
-    "text": "When and Where",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
-    "href": "about/overview.html#mapi-2---advanced-psychological-measurement-theory-vertiefung-in-psychologischer-messtheorie",
-    "title": "Course Overview",
-    "section": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)",
-    "text": "MAPI-2 - Advanced psychological measurement theory (Vertiefung in psychologischer Messtheorie)\nAdvanced psychological measurement theory SM\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nTu 24.02\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nTu 03.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nTu 10.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nTu 17.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nTu 24.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nTu 31.03\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nTu 21.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n8\nTu 28.04\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n9\nTu 05.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir\n\n\n10\nTu 12.05\n14:00-15:30 (1.5H)\n4.160\nEsch-sur-Alzette, Maison du Savoir",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "This is the (work in progress) course website for “Measuring the Mind: Advanced Psychological Measurement Theory”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction\nChapter 2: History of measurements\nChapter 3: Different types of measurements\nChapter 4: Reliability\n\nEach chapter may contain links to slides and possibly other resources.\n\n\nThis course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).\n\n\n\nNavigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about/index.html#course-overview",
-    "href": "about/index.html#course-overview",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "This course aims to provides a critical and applied treatment of psychological measurement theory. We will cover a broad range of topics, ranging from the philosophical (what does it mean to measure something?) to the applied (how to conduct Item Response Theory analysis in R?).",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about/index.html#getting-started",
-    "href": "about/index.html#getting-started",
-    "title": "Measuring the Mind",
-    "section": "",
-    "text": "Navigate through the course materials using the sidebar on the left. Each chapter includes:\n\nLecture notes\nSlides\nPractical exercises in R\nAdditional resources",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html",
-    "href": "about/syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Course Title: Measuring the Mind: Advanced Psychological Measurement Theory\nInstructor: Prof. Pedro Cardoso-Leite",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#course-schedule",
-    "href": "about/syllabus.html#course-schedule",
-    "title": "Syllabus",
-    "section": "Course Schedule",
-    "text": "Course Schedule\ncoming soon",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#grading",
-    "href": "about/syllabus.html#grading",
-    "title": "Syllabus",
-    "section": "Grading",
-    "text": "Grading\n\nClass Participation, Exercises: 25%\nFinal Exam: 75%",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#required-materials",
-    "href": "about/syllabus.html#required-materials",
-    "title": "Syllabus",
-    "section": "Required Materials",
-    "text": "Required Materials\n\nR (latest version)\nRStudio (latest version)\nR packages: tidyverse, lavaan, psych",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter2/chapter2.html",
-    "href": "chapters/chapter2/chapter2.html",
-    "title": "Chapter 2: Some history of measurements",
-    "section": "",
-    "text": "In this chapter we will discuss the evolution of measurements, focusing in particular on the example of length.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 2 - History"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter2/chapter2.html#lecture-slides",
-    "href": "chapters/chapter2/chapter2.html#lecture-slides",
-    "title": "Chapter 2: Some history of measurements",
-    "section": "Lecture Slides",
-    "text": "Lecture Slides\n\nIntroduction",
-    "crumbs": [
-      "Chapters",
-      "Chapter 2 - History"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter4/chapter4.html",
-    "href": "chapters/chapter4/chapter4.html",
-    "title": "Chapter 4: Reliability",
-    "section": "",
-    "text": "Reliability is a key concept in pschometrics. In this chapter we will review different ways to conceptualize reliability and as well as how it is defined and operationalized in Classic Test Theory.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 4 - Reliability"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter4/chapter4.html#lecture-slides",
-    "href": "chapters/chapter4/chapter4.html#lecture-slides",
-    "title": "Chapter 4: Reliability",
-    "section": "Lecture Slides",
-    "text": "Lecture Slides\n\nworkshop",
-    "crumbs": [
-      "Chapters",
-      "Chapter 4 - Reliability"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#section",
-    "href": "chapters/chapter2/slides/history.html#section",
-    "title": "“History” of Measurement",
-    "section": "",
-    "text": "Hand, David J.,\nMeasurement: A Very Short Introduction, Very Short Introductions (Oxford, 2016; online edn, Oxford Academic, 27 Oct. 2016), https://doi.org/10.1093/actrade/9780198779568.001.0001."
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#section-1",
-    "href": "chapters/chapter2/slides/history.html#section-1",
-    "title": "“History” of Measurement",
-    "section": "",
-    "text": "Measurement is as old as civilization:\n\nagriculture\ntrade / accounting\nconstruction\nnavigation\n\nCan you find examples of measurements that are used in each case?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#exercise",
-    "href": "chapters/chapter2/slides/history.html#exercise",
-    "title": "“History” of Measurement",
-    "section": "Exercise",
-    "text": "Exercise\nWhy do we measure things?\n\ngive examples\norganize examples into categories\n\n\nask why multiple times"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#units-of-measurement",
-    "href": "chapters/chapter2/slides/history.html#units-of-measurement",
-    "title": "“History” of Measurement",
-    "section": "Units of Measurement",
-    "text": "Units of Measurement\nWhat references should we pick?\n(For example for length?)"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#use-of-natural-objects",
-    "href": "chapters/chapter2/slides/history.html#use-of-natural-objects",
-    "title": "“History” of Measurement",
-    "section": "use of natural objects",
-    "text": "use of natural objects\nnatural objects as measurements\n\ndry grains of weat\nfathom: height of a man (~ 182.88 cm)\ncubit: length of forearm from elbow to extended fingers (~ 45.72 cm)\nfoot: length of a man’s foot (~ 30.48 cm)\n…\n\nhuman activity\n\nhow much a miner could dig in 1 day\ndistance a bow could shoot an arrow\n…"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#pros-and-cons",
-    "href": "chapters/chapter2/slides/history.html#pros-and-cons",
-    "title": "“History” of Measurement",
-    "section": "Pros and Cons?",
-    "text": "Pros and Cons?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#problems",
-    "href": "chapters/chapter2/slides/history.html#problems",
-    "title": "“History” of Measurement",
-    "section": "Problems",
-    "text": "Problems\n\nvariability of the references\narbitrariness of choice of reference"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability",
-    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability",
-    "title": "“History” of Measurement",
-    "section": "P1: How to reduce variability?",
-    "text": "P1: How to reduce variability?\n\nSolution 1: statistics: compute averages\n\n\n\n\n\n\n\nJacob Koebel (1570)"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology",
-    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology",
-    "title": "“History” of Measurement",
-    "section": "Do we do this in psychology?",
-    "text": "Do we do this in psychology?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-1",
-    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-1",
-    "title": "“History” of Measurement",
-    "section": "P1: How to reduce variability?",
-    "text": "P1: How to reduce variability?\n\nSolution 2: use specific objects as references (more stable), make copies and share them.\n\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Toise"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-1",
-    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-1",
-    "title": "“History” of Measurement",
-    "section": "Do we do this in psychology?",
-    "text": "Do we do this in psychology?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-2",
-    "href": "chapters/chapter2/slides/history.html#p1-how-to-reduce-variability-2",
-    "title": "“History” of Measurement",
-    "section": "P1: How to reduce variability?",
-    "text": "P1: How to reduce variability?\n\nSolution 3: use more fundamental physical objects as references (more stable)\n\n\n\n1791, French Academy of Science:\n\n1 meter = distance of North Pole to equator / 10’000’000\n1 second = 1 / 86’400 of a solar day"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-2",
-    "href": "chapters/chapter2/slides/history.html#do-we-do-this-in-psychology-2",
-    "title": "“History” of Measurement",
-    "section": "Do we do this in psychology?",
-    "text": "Do we do this in psychology?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#p2-arbitrary-choices",
-    "href": "chapters/chapter2/slides/history.html#p2-arbitrary-choices",
-    "title": "“History” of Measurement",
-    "section": "P2: Arbitrary choices?",
-    "text": "P2: Arbitrary choices?\n\n\nmany systems exist in parallel\nthe same unit could have different names\nthe same name could have different meanings\n\n\n\nThis causes many challenges:\n\nhard to use & understand\nchallenges for communication & interoperability\nhigher error rates"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#complexity",
-    "href": "chapters/chapter2/slides/history.html#complexity",
-    "title": "“History” of Measurement",
-    "section": "Complexity",
-    "text": "Complexity\nwikipedia: Traditional French units of measurement"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#polysemy-homonymy",
-    "href": "chapters/chapter2/slides/history.html#polysemy-homonymy",
-    "title": "“History” of Measurement",
-    "section": "Polysemy, Homonymy",
-    "text": "Polysemy, Homonymy\nThis is still the case today!\n\n“a pint of beer…”\nUS pint &lt; UK pint\n473 ml &lt; 569 ml"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#do-we-have-these-problems-in-psychology",
-    "href": "chapters/chapter2/slides/history.html#do-we-have-these-problems-in-psychology",
-    "title": "“History” of Measurement",
-    "section": "Do we have these problems in psychology?",
-    "text": "Do we have these problems in psychology?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#p2-arbitrary-choices-1",
-    "href": "chapters/chapter2/slides/history.html#p2-arbitrary-choices-1",
-    "title": "“History” of Measurement",
-    "section": "P2: Arbitrary choices?",
-    "text": "P2: Arbitrary choices?\nHow can we fix this?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#p2-how-to-reduce-arbitrariness",
-    "href": "chapters/chapter2/slides/history.html#p2-how-to-reduce-arbitrariness",
-    "title": "“History” of Measurement",
-    "section": "P2: How to reduce arbitrariness?",
-    "text": "P2: How to reduce arbitrariness?\n… or rather complexity\n\nSolution: enforce a single unified system\n\n\n\nbenefits are clear and consensual\nbut hard to change habits and adopt new standards"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#systeme-international-dunités-si-units",
-    "href": "chapters/chapter2/slides/history.html#systeme-international-dunités-si-units",
-    "title": "“History” of Measurement",
-    "section": "Systeme International d’Unités (SI units)",
-    "text": "Systeme International d’Unités (SI units)\n1960: 11th General conference on Weight and Measure\n\n\n\n\n\n\n\n\n\n7 SI base Units\n22 named units\nand more…\n\n\n\nhttps://en.wikipedia.org/wiki/International_System_of_Units"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#exercise-1",
-    "href": "chapters/chapter2/slides/history.html#exercise-1",
-    "title": "“History” of Measurement",
-    "section": "Exercise",
-    "text": "Exercise\n\nHave a look at the units of joule. Does it surprise you?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#what-properties-do-you-want-your-reference-to-have",
-    "href": "chapters/chapter2/slides/history.html#what-properties-do-you-want-your-reference-to-have",
-    "title": "“History” of Measurement",
-    "section": "What properties do you want your reference to have?",
-    "text": "What properties do you want your reference to have?\n(aka what units should you pick?)"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#did-we-really-reduce-arbitrariness",
-    "href": "chapters/chapter2/slides/history.html#did-we-really-reduce-arbitrariness",
-    "title": "“History” of Measurement",
-    "section": "Did we really reduce arbitrariness?",
-    "text": "Did we really reduce arbitrariness?\n\nCan we do it?\nDoes it matter?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#how-could-you-measure-the-size-of-earth",
-    "href": "chapters/chapter2/slides/history.html#how-could-you-measure-the-size-of-earth",
-    "title": "“History” of Measurement",
-    "section": "How could you measure the size of Earth?",
-    "text": "How could you measure the size of Earth?"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#section-3",
-    "href": "chapters/chapter2/slides/history.html#section-3",
-    "title": "“History” of Measurement",
-    "section": "",
-    "text": "More detailed explanation:"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#did-eratosthenes-really-measure-the-size-of-earth",
-    "href": "chapters/chapter2/slides/history.html#did-eratosthenes-really-measure-the-size-of-earth",
-    "title": "“History” of Measurement",
-    "section": "Did Eratosthenes really measure the size of Earth?",
-    "text": "Did Eratosthenes really measure the size of Earth?\n\n\nhow can we confirm his estimate is true?\nhe did not measure but infer\nyet the underlying dimension is still “length”"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/history.html#co-evolution-of-science-technology-culture-and-measurement-accuracy",
-    "href": "chapters/chapter2/slides/history.html#co-evolution-of-science-technology-culture-and-measurement-accuracy",
-    "title": "“History” of Measurement",
-    "section": "Co-evolution of science, technology, culture and measurement accuracy",
-    "text": "Co-evolution of science, technology, culture and measurement accuracy\n\nrough measures are initially OK;\nbut as science, technology, and culture advances, more accurate measurements become necessary.\n\n\nExamples:\n\nnavigation\nindustrial revolution\ndiscovery of Pluto based on measured perturbations of the orbit of Uranus"
   },
   {
     "objectID": "chapters/chapter4/slides/reliability_workshop.html#section",
