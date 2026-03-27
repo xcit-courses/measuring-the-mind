@@ -9,6 +9,4 @@ Reliability is a key concept in pschometrics. In this chapter we will review dif
 ## Lecture Slides
 
 - [workshop](slides/reliability_workshop.qmd)
-<!--
 - [lecture](slides/reliability.qmd)
--->
