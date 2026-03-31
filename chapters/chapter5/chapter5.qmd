@@ -1,0 +1,11 @@
+---
+title: "Chapter 5: Latent Variable Theory"
+---
+
+In this chapter we move beyond Classical Test Theory and introduce **latent variable theory** — the idea that observed responses are caused by unobservable latent variables reflecting psychological attributes. As an example model in this category, we will explore **Item Response Theory (IRT)**, a prominent model in the world of educational assessment and which models the probability of a given item response as a function of a person's latent trait and the statistical properties of each item.
+
+
+
+## Lecture Slides
+
+- [Latent Variables & IRT](slides/latent_variables.qmd)
