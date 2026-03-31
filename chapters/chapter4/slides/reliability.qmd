@@ -36,7 +36,7 @@ In psychometrics, "reliability" is most often associated to "Classic Test Theory
 
 ::: {.fragment}
 
-> [...] few psychologists know about the other approaches [...] but every psychologist knows about true scores, random error, and reliability--the core concepts of classical test theory" (p11)
+> [...] few psychologists know about the other approaches [...] but every psychologist knows about true scores, random error, and reliability — the core concepts of classical test theory" (p11)
 
 :::
 
@@ -174,7 +174,7 @@ We can never observe $t_i$!
 
 ::: {.fragment}
 
-CTT defines the **error score** $E_i$ as the difference between the observed score the true score:
+CTT defines the **error score** $E_i$ as the difference between the observed score and the true score:
 
 $$E_i \equiv X_i - t_i $$
 
@@ -215,7 +215,7 @@ in that case the value of $e_i$ would be different and the value of $x_i$ would 
 <br>
 
 ::: {.fragment}
-(i.e., $X_i$ and $E_i$ are viewed as random variables and $x_i$ and $e_i$ are specific realisations of those RAs).
+(i.e., $X_i$ and $E_i$ are viewed as random variables and $x_i$ and $e_i$ are specific realisations of those RVs).
 :::
 
 
@@ -239,7 +239,7 @@ By CTT **definition**, the true scores and the error scores are independent from
 
 - the true score is unknown
 - what does "could have" mean?
-- setting true score to be equal the expectation of the test score is problematic (e.g., assumes no bias)
+- setting true score to be equal to the expectation of the test score is problematic (e.g., assumes no bias)
 - true score definition is inherently tied to a specific test
 
 
@@ -539,7 +539,7 @@ Estimate reliability from a **single administration** using the covariance struc
 The key idea: if items measure the same construct, they should **correlate with each other**.
 :::
 
-chapters/chapter4/slides/reliability.qmd
+
 ## Split-half reliability {.smaller .center}
 
 Split the test into two halves (e.g., odd vs. even items) and correlate their scores.
@@ -671,7 +671,7 @@ The true score is (too) tightly coupled to the specific test used.
 
 - what if someone skips a question? 
 - what if we have limited time to ask questions and want to ask only a subset of questions?
-- what if we have many questions and we want to ask the questions that are most informative give prior responses (adaptive testing)?
+- what if we have many questions and we want to ask the questions that are most informative given prior responses (adaptive testing)?
 
 
 
@@ -710,10 +710,10 @@ Wu et al. Chapter 5: Classic Test Theory p87
 ##  {.center}
 
 
-Do you think the reliabilty index as defined by CTT is satisfactory?
+Do you think the reliability index as defined by CTT is satisfactory?
 
 
-If your patient fills out a questionnaire and gets a score of 19, what wouly you like a reliability index to tell you about this number?
+If your patient fills out a questionnaire and gets a score of 19, what would you like a reliability index to tell you about this number?
 
 
 
