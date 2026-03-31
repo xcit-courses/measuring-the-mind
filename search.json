@@ -931,7 +931,7 @@
     "href": "chapters/chapter4/slides/reliability.html#section",
     "title": "Reliability and Classic Test Theory (CTT)",
     "section": "",
-    "text": "“[Lord and Novick (1968)’s] treatment of the classical test model […] is arguably the most influential treatise on psychological measurement in the history of psychology.”\n\n\n\n[…] few psychologists know about the other approaches […] but every psychologist knows about true scores, random error, and reliability–the core concepts of classical test theory” (p11)\n\n\n\nBorsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005."
+    "text": "“[Lord and Novick (1968)’s] treatment of the classical test model […] is arguably the most influential treatise on psychological measurement in the history of psychology.”\n\n\n\n[…] few psychologists know about the other approaches […] but every psychologist knows about true scores, random error, and reliability — the core concepts of classical test theory” (p11)\n\n\n\nBorsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005."
   },
   {
     "objectID": "chapters/chapter4/slides/reliability.html#what-people-say-about-it.",
@@ -980,7 +980,7 @@
     "href": "chapters/chapter4/slides/reliability.html#core-idea-2",
     "title": "Reliability and Classic Test Theory (CTT)",
     "section": "core idea #2",
-    "text": "core idea #2\n\nCTT defines the error score \\(E_i\\) as the difference between the observed score the true score:\n\\[E_i \\equiv X_i - t_i \\]\n\n\n\nNote: \\(X_i\\) and \\(E_i\\) are random variables, \\(t_i\\) is by definition a constant."
+    "text": "core idea #2\n\nCTT defines the error score \\(E_i\\) as the difference between the observed score and the true score:\n\\[E_i \\equiv X_i - t_i \\]\n\n\n\nNote: \\(X_i\\) and \\(E_i\\) are random variables, \\(t_i\\) is by definition a constant."
   },
   {
     "objectID": "chapters/chapter4/slides/reliability.html#core-idea-3-main-equation",
@@ -1001,7 +1001,7 @@
     "href": "chapters/chapter4/slides/reliability.html#section-2",
     "title": "Reliability and Classic Test Theory (CTT)",
     "section": "",
-    "text": "That same person could have responded somewhat differently on that test: in that case the value of \\(e_i\\) would be different and the value of \\(x_i\\) would also be different, but the value of \\(t_i\\) would be the same.\n\n\n(i.e., \\(X_i\\) and \\(E_i\\) are viewed as random variables and \\(x_i\\) and \\(e_i\\) are specific realisations of those RAs)."
+    "text": "That same person could have responded somewhat differently on that test: in that case the value of \\(e_i\\) would be different and the value of \\(x_i\\) would also be different, but the value of \\(t_i\\) would be the same.\n\n\n(i.e., \\(X_i\\) and \\(E_i\\) are viewed as random variables and \\(x_i\\) and \\(e_i\\) are specific realisations of those RVs)."
   },
   {
     "objectID": "chapters/chapter4/slides/reliability.html#section-3",
@@ -1022,7 +1022,7 @@
     "href": "chapters/chapter4/slides/reliability.html#do-these-assumptions-make-sense",
     "title": "Reliability and Classic Test Theory (CTT)",
     "section": "Do these assumptions make sense?",
-    "text": "Do these assumptions make sense?\n\nthe true score is unknown\nwhat does “could have” mean?\nsetting true score to be equal the expectation of the test score is problematic (e.g., assumes no bias)\ntrue score definition is inherently tied to a specific test"
+    "text": "Do these assumptions make sense?\n\nthe true score is unknown\nwhat does “could have” mean?\nsetting true score to be equal to the expectation of the test score is problematic (e.g., assumes no bias)\ntrue score definition is inherently tied to a specific test"
   },
   {
     "objectID": "chapters/chapter4/slides/reliability.html#reliability",
@@ -1162,7 +1162,14 @@
     "href": "chapters/chapter4/slides/reliability.html#internal-consistency",
     "title": "Reliability and Classic Test Theory (CTT)",
     "section": "3. Internal consistency",
-    "text": "3. Internal consistency\nEstimate reliability from a single administration using the covariance structure among items.\n\nThe key idea: if items measure the same construct, they should correlate with each other.\n\nchapters/chapter4/slides/reliability.qmd ## Split-half reliability {.smaller .center}\nSplit the test into two halves (e.g., odd vs. even items) and correlate their scores.\n\\[r_{\\text{split-half}} = \\text{cor}(X_{\\text{half 1}},\\ X_{\\text{half 2}})\\]\n\nApply the Spearman-Brown correction to estimate full-test reliability:\n\\[r_{SB} = \\frac{2\\, r_{\\text{split-half}}}{1 + r_{\\text{split-half}}}\\]\n\n\nProblem: the result depends on how you split the test."
+    "text": "3. Internal consistency\nEstimate reliability from a single administration using the covariance structure among items.\n\nThe key idea: if items measure the same construct, they should correlate with each other."
+  },
+  {
+    "objectID": "chapters/chapter4/slides/reliability.html#split-half-reliability",
+    "href": "chapters/chapter4/slides/reliability.html#split-half-reliability",
+    "title": "Reliability and Classic Test Theory (CTT)",
+    "section": "Split-half reliability",
+    "text": "Split-half reliability\nSplit the test into two halves (e.g., odd vs. even items) and correlate their scores.\n\\[r_{\\text{split-half}} = \\text{cor}(X_{\\text{half 1}},\\ X_{\\text{half 2}})\\]\n\nApply the Spearman-Brown correction to estimate full-test reliability:\n\\[r_{SB} = \\frac{2\\, r_{\\text{split-half}}}{1 + r_{\\text{split-half}}}\\]\n\n\nProblem: the result depends on how you split the test."
   },
   {
     "objectID": "chapters/chapter4/slides/reliability.html#cronbachs-alpha",
@@ -1211,7 +1218,7 @@
     "href": "chapters/chapter4/slides/reliability.html#section-18",
     "title": "Reliability and Classic Test Theory (CTT)",
     "section": "",
-    "text": "Practical limitations: \nThe true score is (too) tightly coupled to the specific test used.\n\nwhat if someone skips a question?\nwhat if we have limited time to ask questions and want to ask only a subset of questions?\nwhat if we have many questions and we want to ask the questions that are most informative give prior responses (adaptive testing)?"
+    "text": "Practical limitations: \nThe true score is (too) tightly coupled to the specific test used.\n\nwhat if someone skips a question?\nwhat if we have limited time to ask questions and want to ask only a subset of questions?\nwhat if we have many questions and we want to ask the questions that are most informative given prior responses (adaptive testing)?"
   },
   {
     "objectID": "chapters/chapter4/slides/reliability.html#section-19",
@@ -1225,7 +1232,7 @@
     "href": "chapters/chapter4/slides/reliability.html#section-20",
     "title": "Reliability and Classic Test Theory (CTT)",
     "section": "",
-    "text": "Do you think the reliabilty index as defined by CTT is satisfactory?\nIf your patient fills out a questionnaire and gets a score of 19, what wouly you like a reliability index to tell you about this number?"
+    "text": "Do you think the reliability index as defined by CTT is satisfactory?\nIf your patient fills out a questionnaire and gets a score of 19, what would you like a reliability index to tell you about this number?"
   },
   {
     "objectID": "chapters/chapter5/slides/latent_variables.html#recap",
