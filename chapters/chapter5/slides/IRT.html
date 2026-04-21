@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.9.37">
 
   <meta name="author" content="Pedro Cardoso-Leite">
-  <title>Advanced Psychological Measurement Theory – Latent Variable Theory</title>
+  <title>Advanced Psychological Measurement Theory – Item Response Theory</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -133,7 +133,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Latent Variable Theory</h1>
+  <h1 class="title">Item Response Theory</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -143,6 +143,81 @@ Pedro Cardoso-Leite
 </div>
 </div>
 
+</section>
+<section id="section" class="slide level2 center">
+<h2></h2>
+<p>10 people completed a Math test that contained 5 items.</p>
+<p><br> <strong>How would you score that test?</strong></p>
+</section>
+<section id="case-1" class="slide level2 center">
+<h2>case 1</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/irt_example_1.png" class="quarto-figure quarto-figure-left" height="300"></p>
+</figure>
+</div>
+</section>
+<section id="case-2" class="slide level2 center">
+<h2>case 2</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/irt_example_2.png" class="quarto-figure quarto-figure-left" height="300"></p>
+</figure>
+</div>
+</section>
+<section id="case-3" class="slide level2 center">
+<h2>case 3</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/irt_example_3.png" class="quarto-figure quarto-figure-left" height="300"></p>
+</figure>
+</div>
+</section>
+<section id="case-4" class="slide level2 center">
+<h2>case 4</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/irt_example_4.png" class="quarto-figure quarto-figure-left" height="300"></p>
+</figure>
+</div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<div class="columns">
+<div class="column">
+<p>Case 1 <img data-src="images/irt_example_1.png" class="quarto-figure quarto-figure-left" height="250"></p>
+<p>Case 2 <img data-src="images/irt_example_2.png" class="quarto-figure quarto-figure-left" height="250"></p>
+</div><div class="column">
+<p>Case 3 <img data-src="images/irt_example_3.png" class="quarto-figure quarto-figure-left" height="250"></p>
+<p>Case 4</p>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/irt_example_4.png" class="quarto-figure quarto-figure-left" height="250"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="some-key-insights" class="slide level2">
+<h2>Some key insights</h2>
+<ul>
+<li class="fragment">just adding up may not make sense</li>
+<li class="fragment">some items/tests are not informative (case 1, 2)</li>
+<li class="fragment">the scores do not reflect the actual information we have (case 3)</li>
+<li class="fragment">some items may not behave as expected (case 4)</li>
+</ul>
+<aside class="notes">
+<p>the numbers themselves make no sense: case 3: if we dropped items 1 and 5 which provide no information, we would have different scores but those differences do not really matter.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="recap" class="slide level2">
 <h2>Recap</h2>
@@ -164,180 +239,196 @@ Pedro Cardoso-Leite
 <p>These are not mere inconveniences — they reveal a deeper problem about <em>what CTT is actually measuring</em>.</p>
 </div>
 </section>
-<section id="section" class="slide level2 center">
+<section id="section-2" class="slide level2 center">
 <h2></h2>
 <p>CTT does not adequately represent attributes!</p>
 <div class="fragment">
 <p>Its operationalist view is too restrictive.</p>
 </div>
 </section>
-<section>
-<section id="latent-variable-theory" class="title-slide slide level1 center">
-<h1>Latent Variable Theory</h1>
-
-</section>
-<section id="section-1" class="slide level2 center">
+<section id="section-3" class="slide level2 center">
 <h2></h2>
-<p><a href="https://www.cambridge.org/core/books/measuring-the-mind/1DB84F33B196C4F2658209B7BC8806E1">Measuring the Mind</a></p>
-<div class="quarto-figure quarto-figure-center">
+<p>Latent variable theory provides a more principled way to extract information from situations like this.</p>
+</section>
+<section id="irt-model" class="slide level2 center">
+<h2>IRT model</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-left">
 <figure>
-<p><img data-src="images/measuring_the_mind.jpg" class="quarto-figure quarto-figure-center" height="400"></p>
+<p><img data-src="images/irt_diagram.png" class="quarto-figure quarto-figure-left" height="350"></p>
 </figure>
 </div>
-<div class="footer">
-<p>Borsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005.</p>
-</div>
-</section>
-<section id="section-2" class="slide level2">
-<h2></h2>
-<p>Latent variable theory represents the attribute of interest <em>explicitly</em> in the model formulation.</p>
-<p>It offers a formal structure that</p>
+</div><div class="column">
 <ul>
-<li class="fragment">links test scores to hypothesized attributes (i.e., latent variables)</li>
-<li class="fragment">deduces empirical implications of the model (i.e., conditional independences)</li>
-<li class="fragment">offers a means to test if a model adequately fits empirical data!</li>
+<li class="fragment">person attributes (e.g., math ability)</li>
+<li class="fragment">item attributes (e.g., difficulty, discriminability)</li>
+<li class="fragment">logit function</li>
 </ul>
+</div></div>
+</section>
+<section id="irt-model-1" class="slide level2 center">
+<h2>IRT model</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/irt_diagram.png" class="quarto-figure quarto-figure-left" height="350"></p>
+</figure>
+</div>
+</div><div class="column">
+<ul>
+<li class="fragment">generative model: from the model we can generate data</li>
+<li class="fragment">learning from data: from the data we can estimate parameters</li>
+</ul>
+</div></div>
+</section>
+<section id="section-4" class="slide level2 center">
+<h2></h2>
+<ul>
+<li class="fragment">We can learn about a person’s attributes because they complete many items.</li>
+<li class="fragment">We can learn about an item because they were completed by many people.</li>
+<li class="fragment">We can learn about both at the same time.</li>
+<li class="fragment">The more data we have, the more accurate our parameter estimates.</li>
+</ul>
+</section>
+<section id="irt-model-more-formally" class="slide level2 center">
+<h2>IRT model, more formally</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/irt_diagram.png" class="quarto-figure quarto-figure-left" height="350"></p>
+</figure>
+</div>
+</div><div class="column">
+<p>We have many choices:</p>
+<ul>
+<li class="fragment">how many person attributes?</li>
+<li class="fragment">how many item attributes?</li>
+<li class="fragment">how do we link them together (to predict response)?</li>
+</ul>
+</div></div>
+</section>
+<section id="the-simplest-model-rasch" class="slide level2">
+<h2>The simplest model: Rasch</h2>
 <div class="fragment">
-<p>Recall that CTT is unfalsifiable by data.</p>
+<p>One person parameter: ability <span class="math inline">\(\theta_i\)</span></p>
 </div>
-</section>
-<section id="section-3" class="slide level2">
-<h2></h2>
-<ul>
-<li class="fragment"><p>Latent variable models the data-generating mechanism, in which the attribute is represented explicitly as a latent variable.</p></li>
-<li class="fragment"><p>Models can be fit to the data</p></li>
-<li class="fragment"><p>It requires making choices to constrain the model; these constraints needs to be justified using theory!</p></li>
-<li class="fragment"><p>Models are underdetermined / the data does not speak for itself.</p></li>
-</ul>
-</section>
-<section id="section-4" class="slide level2">
-<h2></h2>
-<p>Types of models in this category</p>
-<ul>
-<li class="fragment">factor analysis (Spearman, 1904)</li>
-<li class="fragment">confirmatory factor analysis</li>
-<li class="fragment">item response theory</li>
-<li class="fragment">latent structure analysis (e.g., latent class analysis)</li>
-<li class="fragment">…</li>
-</ul>
-</section>
-<section id="a-unified-framework-generalized-linear-item-response-theory-glirt" class="slide level2">
-<h2>A unified framework: “Generalized linear item response theory” (GLIRT)</h2>
-<p>Mellenbergh, G. J. (1994). Generalized linear item response theory. Psychological Bulletin, 115(2), 300–307. <a href="https://doi.org/10.1037/0033-2909.115.2.300">https://doi.org/10.1037/0033-2909.115.2.300</a></p>
-</section>
-<section id="section-5" class="slide level2">
-<h2></h2>
-
-<img data-src="images/fa_diagram.png" class="r-stretch"><div class="footer">
-<p><a href="https://benwhalley.github.io/just-enough-r/cfa.html">https://benwhalley.github.io/just-enough-r/cfa.html</a></p>
-</div>
-<p>&lt;! –</p>
-</section>
-<section id="open-questions" class="slide level2">
-<h2>Open questions</h2>
-<p>What do the arrows mean? - causality?</p>
-<p>What is the meaning of the latent variable?</p>
-<p>What ontological status do latent variables have? - real vs useful fiction?</p>
-<p>–&gt;</p>
-</section>
-<section id="key-questions" class="slide level2">
-<h2>3 key questions</h2>
-<ul>
-<li class="fragment"><strong>syntax:</strong> how do we relate the observed responses to latent variables?</li>
-<li class="fragment"><strong>semantics:</strong> how do we interpret the “expected response” to an item?</li>
-<li class="fragment"><strong>ontology:</strong> what type of things are the latent variables and relationships in the model?</li>
-</ul>
-<div class="footer">
-<p>Borsboom D. Measuring the Mind: Conceptual Issues in Contemporary Psychometrics. Cambridge University Press; 2005.</p>
-</div>
-</section>
-<section id="syntax-a-general-form" class="slide level2">
-<h2>Syntax: a general form</h2>
-<p><span class="math display">\[g[\mathbb{E}(U_{ij})] = \beta_j +  \alpha_j * \theta_i\]</span></p>
-<ul>
-<li class="fragment"><span class="math inline">\(g()\)</span> := link function</li>
-<li class="fragment"><span class="math inline">\(\mathbb{E}(U_{ij})\)</span> := expected response of person <span class="math inline">\(i\)</span> to item <span class="math inline">\(j\)</span></li>
-<li class="fragment"><span class="math inline">\(\theta_i\)</span> := parameter(s) about the person <span class="math inline">\(i\)</span></li>
-<li class="fragment"><span class="math inline">\(\beta_j\)</span>, <span class="math inline">\(\alpha_j\)</span>:= parameters about the item <span class="math inline">\(j\)</span></li>
-</ul>
 <div class="fragment">
-<p>There are many variants of this!</p>
+<p>One item parameter: difficulty <span class="math inline">\(\beta_j\)</span></p>
 </div>
-</section>
-<section id="many-variants" class="slide level2">
-<h2>many variants…</h2>
-<p>for combinations of</p>
-<ul>
-<li class="fragment">type of observed variable (e.g., continuous, categorical)</li>
-<li class="fragment">type of latent variables (e.g., continuous, categorical)</li>
-<li class="fragment">the link function used (e.g., identity, logit)</li>
-</ul>
 <div class="fragment">
-<p>Example:</p>
-<ul>
-<li class="fragment">cont, cont, identity: <em>factor analysis</em></li>
-<li class="fragment">dichotomous, continous, logit: <em>item response theory</em></li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="item-response-theory" class="title-slide slide level1 center">
-<h1>Item Response Theory</h1>
-
-</section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<p>IRT is a special case of latent variable models;</p>
-<p>there are many variants within IRT.</p>
-<ul>
-<li class="fragment">Rasch model (1 parameter model)</li>
-<li class="fragment">Birnbaum model (2 parameter model)</li>
-<li class="fragment">3, 4 parameter models</li>
-<li class="fragment">and many more</li>
-</ul>
-</section>
-<section id="irt-core-ideas" class="slide level2 center">
-<h2>IRT: core ideas</h2>
-<p><span class="math display">\[ln[\frac{\mathbb{E}(U_{ij})}{1-\mathbb{E}(U_{ij})}] = \beta_j +  \alpha_j * \theta_i\]</span></p>
-<ol type="1">
-<li class="fragment"><p>Person and item parameters are combined <em>linearly</em> to produce an output variable</p></li>
-<li class="fragment"><p>That output variable is the <em>logit</em> of the expected response:</p></li>
-</ol>
-<div class="fragment">
-<p>logit is the natural log of the odds ratio;</p>
+<p><span class="math display">\[P(U_{ij}=1) = \frac{1}{1 + e^{-(\theta_i - \beta_j)}}\]</span></p>
 </div>
 </section>
-<section id="section-7" class="slide level2 smaller">
+<section id="section-5" class="slide level2 center">
 <h2></h2>
-<p><em>Note:</em> It is more common to see IRT equations presented using the inverse link function instead of the link function</p>
-<p>link function (logit): <span class="math display">\[ln[\frac{\mathbb{E}(U_{ij})}{1-\mathbb{E}(U_{ij})}] = \beta_j +  \alpha_j * \theta_i\]</span></p>
-<p><br></p>
-<p>inverse link function (logistic): <span class="math display">\[\mathbb{E}(U_{ij}) = \frac{1}{1+ e^{-(\beta_j +  \alpha_j * \theta_i)}}\]</span></p>
+<div style="text-align: center;">
+<p>Item Characteristic Curve (ICC)</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/item_response_function_0.png" class="quarto-figure quarto-figure-center" height="350"></p>
+</figure>
+</div>
+</section>
+<section id="section-6" class="slide level2 center">
+<h2></h2>
+<div style="text-align: center;">
+<p>Item Characteristic Curve (ICC)</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/item_response_function_1.png" class="quarto-figure quarto-figure-center" height="350"></p>
+</figure>
+</div>
+</section>
+<section id="section-7" class="slide level2 center">
+<h2></h2>
+<div style="text-align: center;">
+<p>Item Characteristic Curve (ICC)</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/item_response_function_2.png" class="quarto-figure quarto-figure-center" height="350"></p>
+</figure>
+</div>
 </section>
 <section id="section-8" class="slide level2 center">
 <h2></h2>
-<p><a href="https://en.wikipedia.org/wiki/Logistic_function">Logistic function</a></p>
-<p><span class="math display">\[P(X = 1 \mid \theta) = \frac{e^\theta}{1 + e^\theta} = \frac{1}{1 + e^{-\theta}}\]</span></p>
-</section></section>
-<section id="coding" class="title-slide slide level1 center">
-<h1>Coding</h1>
+<div style="text-align: center;">
+<p>Item Characteristic Curve (ICC)</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/item_response_function_3.png" class="quarto-figure quarto-figure-center" height="350"></p>
+</figure>
+</div>
+</section>
+<section id="other-irt-models" class="slide level2">
+<h2>Other IRT models…</h2>
+<p>they use more or less parameters to describe <em>the items</em>.</p>
+<ul>
+<li class="fragment">Rasch model: <span class="math inline">\(P(U_{ij}=1) = \frac{1}{1 + e^{-(\theta_i - \beta_j)}}\)</span></li>
+<li class="fragment">1PL model: <span class="math inline">\(P(U_{ij}=1) = \frac{1}{1 + e^{-\alpha(\theta_i - \beta_j)}}\)</span></li>
+<li class="fragment">2PL model: <span class="math inline">\(P(U_{ij}=1) = \frac{1}{1 + e^{-\alpha_j(\theta_i - \beta_j)}}\)</span></li>
+<li class="fragment">3PL model: <span class="math inline">\(P(U_{ij}=1) = \gamma_j + (1-\gamma_j) \frac{1}{1 + e^{-\alpha_j(\theta_i - \beta_j)}}\)</span></li>
+<li class="fragment">…</li>
+</ul>
+<div class="footer">
+<p>https://okanbulut.github.io/edpy507/irt.html</p>
+</div>
+</section>
+<section id="wright-map-item-person-map" class="slide level2">
+<h2>Wright map (Item-Person map)</h2>
+<p>Do the item difficulties span the range of person abilities in our sample?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/wright_map.png" class="quarto-figure quarto-figure-center" height="350"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="https://rstudio-pubs-static.s3.amazonaws.com/1205432_fcbc7d2423324f9aa7709808d4324a90.html">Item Response Theory Practice with R: a Tutorial</a></p>
+</div>
+</section>
+<section id="item-information-curves" class="slide level2">
+<h2>Item Information Curves</h2>
+<p>How much information does an item provide?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/item_information_curves.png" class="quarto-figure quarto-figure-center" height="350"></p>
+</figure>
+</div>
+<div class="footer">
+<p><a href="https://rstudio-pubs-static.s3.amazonaws.com/1205432_fcbc7d2423324f9aa7709808d4324a90.html">Item Response Theory Practice with R: a Tutorial</a></p>
+</div>
+</section>
+<section id="homework" class="slide level2 center">
+<h2>Homework</h2>
+<p><a href="https://rstudio-pubs-static.s3.amazonaws.com/1205432_fcbc7d2423324f9aa7709808d4324a90.html">Item Response Theory Practice with R: a Tutorial</a></p>
+<p>Read that tutorial;</p>
+<p>try to run it on your own machine.</p>
+</section>
+<section id="homework-1" class="slide level2 smaller">
+<h2>Homework</h2>
+<p>Compare this notation:</p>
+<ul>
+<li class="fragment">Rasch model: <span class="math inline">\(P(U_{ij}=1) = \frac{1}{1 + e^{-(\theta_i - \beta_j)}}\)</span></li>
+<li class="fragment">1PL model: <span class="math inline">\(P(U_{ij}=1) = \frac{1}{1 + e^{-\alpha(\theta_i - \beta_j)}}\)</span></li>
+<li class="fragment">2PL model: <span class="math inline">\(P(U_{ij}=1) = \frac{1}{1 + e^{-\alpha_j(\theta_i - \beta_j)}}\)</span></li>
+<li class="fragment">3PL model: <span class="math inline">\(P(U_{ij}=1) = \gamma_j + (1-\gamma_j) \frac{1}{1 + e^{-\alpha_j(\theta_i - \beta_j)}}\)</span></li>
+</ul>
+<div class="fragment">
+<p>to this one: <a href="https://okanbulut.github.io/edpy507/irt.html">https://okanbulut.github.io/edpy507/irt.html</a></p>
+<ul>
+<li class="fragment">how are the notations different?</li>
+<li class="fragment">what does each parameter mean?</li>
+</ul>
+</div>
+
 
 </section>
-
-<section>
-<section id="exercise" class="title-slide slide level1 center">
-<h1>Exercise</h1>
-
-</section>
-<section id="exercise-1" class="slide level2">
-<h2>Exercise</h2>
-<p>How is this equation different from the one in Classic Test Theory?</p>
-<p><span class="math display">\[ln[\frac{\mathbb{E}(U_{ij})}{1-\mathbb{E}(U_{ij})}] = \beta_j +  \alpha_j * \theta_i\]</span></p>
-<p>Recall, CTT:</p>
-<p><span class="math display">\[X = T + E \]</span></p>
-
-
-</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
