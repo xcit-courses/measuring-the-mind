@@ -90,6 +90,8 @@ Recall that CTT is unfalsifiable by data.
 
 - Latent variable models the data-generating mechanism, in which the attribute is represented explicitly as a latent variable.
 
+- Models can be fit to the data
+
 - It requires making choices to constrain the model; these constraints needs to be justified using theory!
 
 - Models are underdetermined / the data does not speak for itself.

@@ -9,3 +9,4 @@ In this chapter we move beyond Classical Test Theory and introduce **latent vari
 ## Lecture Slides
 
 - [Latent Variables & IRT](slides/latent_variables.qmd)
+- [IRT](slides/IRT.qmd)
