@@ -1,0 +1,11 @@
+---
+title: "Chapter 6: Validity"
+---
+
+Validity is perhaps the most fundamental concept in psychological measurement. While reliability asks *"does the measure produce consistent results?"*, validity asks the deeper question: *"does the measure actually measure what it is supposed to measure?"*. In this chapter we explore classical and contemporary accounts of validity, threats to valid inference, and how validity evidence is gathered and evaluated.
+
+
+
+## Lecture Slides
+
+- [Validity](slides/validity.qmd)

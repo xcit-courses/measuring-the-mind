@@ -14,7 +14,8 @@ In this course we will cover the following content:
 - [Chapter 2: History of measurements](../chapters/chapter2/chapter2.qmd)
 - [Chapter 3: Different types of measurements](../chapters/chapter3/chapter3.qmd)
 - [Chapter 4: Reliability](../chapters/chapter4/chapter4.qmd)
-
+- [Chapter 5: Latent Variable Theory](../chapters/chapter5/chapter5.qmd)
+- [Chapter 6: Validity](../chapters/chapter6/chapter6.qmd)
 
 
 Each chapter may contain links to slides and possibly other resources.
